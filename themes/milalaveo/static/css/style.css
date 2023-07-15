@@ -1,0 +1,104 @@
+:root {
+    --main-black: #181717;
+    --secondary: #2429AF;
+    --secondary-2: #2429AF;
+    --main-gray: #606060;
+}
+
+html {
+    font-family: "GT Walsheim LC", serif;
+    font-size: 16px;
+    color: var(--main-black);
+}
+
+h1 {
+    font-size: 3.33rem;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+h2 {
+    line-height: 1.17;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+a {
+    color: inherit;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--secondary);
+}
+
+a:active {
+    color: var(--secondary-2);
+}
+
+.container {
+    margin: 120px auto;
+}
+
+.navigation__list {
+    text-align: right;
+    list-style-type: none;
+    letter-spacing: 32px;
+    font-size: 1.167rem;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation__list > li {
+    display: inline-block;
+    letter-spacing: initial;
+}
+
+.hero__heading, .hero__subheading {
+    margin-bottom: 0;
+}
+
+.hero__subheading {
+    color: var(--main-gray);
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+}
+
+.hero {
+    margin-top: 240px;
+    margin-bottom: 120px;
+}
+
+.brands {
+    margin-bottom: 120px;
+}
+
+.brands__title {
+    margin-bottom: 0;
+}
+
+.brands__list {
+    margin: 64px 0;
+}
+
+.projects__title {
+    font-size: 3.33rem;
+    letter-spacing: -1.8px;
+    font-weight: 500;
+    margin-bottom: 120px;
+}
+
+.footer__copyright-text {
+    margin: 0;
+    font-size: 1.167rem;
+    color: var(--secondary-2);
+}
+
+hr {
+    border: none;
+    margin: 120px auto;
+    background-color: #C2C2C2;
+    height: 1px;
+}

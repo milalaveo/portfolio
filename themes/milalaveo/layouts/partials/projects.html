@@ -1,0 +1,10 @@
+<section class="row projects">
+    <h2 class="col-sm-5 projects__title">A small selection of&nbsp;my work.</h2>
+    <ul class="col-12 row projects__list">
+        {{ range .Pages }}
+            <li class="col-12 project__item">
+                {{ .Title }}
+            </li>
+        {{ end }}
+    </ul>
+</section>
