@@ -1,0 +1,4 @@
+baseURL = 'https://milalaveo.com/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'milalaveo'
