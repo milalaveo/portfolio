@@ -69,6 +69,7 @@ a:active {
 .hero {
     margin-top: 240px;
     margin-bottom: 120px;
+    align-items: flex-end;
 }
 
 .brands {

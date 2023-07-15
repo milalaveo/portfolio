@@ -5,5 +5,3 @@ type: "page"
 draft: false
 ---
 
-# Hello world!
-it's me, hugo
