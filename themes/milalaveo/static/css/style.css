@@ -44,7 +44,7 @@ a:active {
 .navigation__list {
     text-align: right;
     list-style-type: none;
-    letter-spacing: 32px;
+    letter-spacing: 16px;
     font-size: 1.167rem;
     margin: 0;
     padding: 0;
