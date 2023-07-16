@@ -43,6 +43,18 @@ a:active {
     margin: 120px auto;
 }
 
+.header__icon a {
+    display: inline-block;
+}
+
+.header__icon img {
+    vertical-align: middle;
+}
+
+.header__navigation {
+    line-height: 1.625;
+}
+
 .navigation__list {
     text-align: right;
     list-style-type: none;
@@ -90,6 +102,10 @@ a:active {
     letter-spacing: -1.8px;
     font-weight: 500;
     margin-bottom: 120px;
+}
+
+.footer {
+    line-height: 1.625;
 }
 
 .footer__copyright-text {
