@@ -11,9 +11,9 @@
         {{ end }}
         <a href="{{ .RelPermalink }}"><h4 class="bold">{{ .Title }}</h4></a>
         <p class="mb-4">{{ .Description }}</p>
-        <p class="paragraph2 gray mb-4">{{ .Summary }}</p>
+        <p class="paragraph2 gray mb-4">{{ .Params.subtitle }}</p>
         <div class="text-right">
-            <a href="{{ .RelPermalink }}"><button class="button button_secondary">Read more <img class="button__icon" src="/images/button-arrow.svg" alt="show more"></button></a>
+            <a href="{{ .RelPermalink }}"><button class="button button_secondary">Read more <img class="button__icon" src="/images/button-arrow-dark.svg" alt="show more"></button></a>
         </div>
     </li>
     {{ end }}

@@ -15,27 +15,15 @@
     </div>
 </section>
 <section class="row about__skills gap-s">
-    <div class="col-12 col-sm-1 underline mb-4 mb-sm-0 about__skill-name">Languages</div>
-    <div class="col-12 col-sm-5 about__skill-value">
-        {{ range .Params.languages }}
-        <span>{{ . }}</span>
-        {{ end }}
-    </div>
+    <p class="col-12 col-sm-1 underline mb-4 mb-sm-0 about__skill-name">Languages</p>
+    <p class="col-12 col-sm-5 mb-0 about__skill-value">{{ .Params.languages }}</p>
 </section>
 <section class="row about__skills gap-s">
-    <div class="col-12 col-sm-1 underline mb-4 mb-sm-0 about__skill-name">Degrees</div>
-    <div class="col-12 col-sm-5 about__skill-value">
-        {{ range .Params.degrees }}
-        <span>{{ . }}</span>
-        {{ end }}
-    </div>
+    <p class="col-12 col-sm-1 underline mb-4 mb-sm-0 about__skill-name">Degrees</p>
+    <p class="col-12 col-sm-5 mb-0 about__skill-value">{{ .Params.degrees }}</p>
 </section>
 <section class="row about__skills gap-s">
-    <div class="col-12 col-sm-1 underline mb-4 mb-sm-0 about__skill-name">Stack</div>
-    <div class="col-12 col-sm-5 about__skill-value">
-        {{ range .Params.stack }}
-        <span>{{ . }}</span>
-        {{ end }}
-    </div>
+    <p class="col-12 col-sm-1 underline mb-4 mb-sm-0 about__skill-name">Stack</p>
+    <p class="col-12 col-sm-5 mb-0 about__skill-value">{{ .Params.stack }}</p>
 </section>
 {{ end }}
