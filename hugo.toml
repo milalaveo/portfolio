@@ -1,6 +1,6 @@
 baseURL = 'https://milalaveo.com/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Milalaveo'
 theme = 'milalaveo'
 sectionPagesMenu = "main"
 
@@ -12,7 +12,7 @@ sectionPagesMenu = "main"
 [[menu.main]]
     name = 'About'
     url = '/about'
-    weight = 20
+    weight = 30
 [[menu.main]]
     name = 'Contact'
     url = '/contact'
@@ -22,6 +22,6 @@ sectionPagesMenu = "main"
     url = 'https://linkedin.com'
     weight = 10
 [[menu.footer]]
-    name = 'Behance'
-    url = 'https://behance.com'
+    name = 'GitHub'
+    url = 'https://github.com/milalaveo'
     weight = 20
