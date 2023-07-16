@@ -2,3 +2,30 @@ baseURL = 'https://milalaveo.com/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'milalaveo'
+sectionPagesMenu = "main"
+
+[menu]
+[[menu.main]]
+    name = 'Home'
+    url = '/'
+    weight = 10
+[[menu.main]]
+    name = 'About'
+    url = '/about'
+    weight = 20
+[[menu.main]]
+    name = 'Projects'
+    url = '/projects'
+    weight = 30
+[[menu.main]]
+    name = 'Contact'
+    url = '/contact'
+    weight = 40
+[[menu.footer]]
+    name = 'LinkedIn'
+    url = 'https://linkedin.com'
+    weight = 10
+[[menu.footer]]
+    name = 'Behance'
+    url = 'https://behance.com'
+    weight = 20

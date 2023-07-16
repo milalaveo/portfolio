@@ -3,12 +3,14 @@
     --secondary: #2429AF;
     --secondary-2: #2429AF;
     --main-gray: #606060;
+    --background: #F3F3F3;
 }
 
 html {
     font-family: "GT Walsheim LC", serif;
     font-size: 16px;
     color: var(--main-black);
+    background-color: var(--background);
 }
 
 h1 {
@@ -44,8 +46,7 @@ a:active {
 .navigation__list {
     text-align: right;
     list-style-type: none;
-    letter-spacing: 16px;
-    font-size: 1.167rem;
+    letter-spacing: 32px;
     margin: 0;
     padding: 0;
 }
@@ -93,7 +94,6 @@ a:active {
 
 .footer__copyright-text {
     margin: 0;
-    font-size: 1.167rem;
     color: var(--secondary-2);
 }
 
