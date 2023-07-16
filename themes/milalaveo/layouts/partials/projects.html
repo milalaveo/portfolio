@@ -15,7 +15,7 @@
                     <a href="{{ .RelPermalink }}" class="project__item-show-more">More shots from this project ↗</a>
                 </div>
             </div>
-            <div class="col-sm-6 offset-sm-1 project__item-image">
+            <div class="col-sm-6 offset-sm-1 project__item-image order-first order-sm-last">
                 {{ with $image }}
                     <img src="{{ .RelPermalink }}" width="100%" alt="{{ .Title }}">
                 {{ end }}

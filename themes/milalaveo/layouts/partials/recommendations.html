@@ -1,35 +1,17 @@
 <section class="row recommendations">
     <h2 class="col-sm-5 recommendations__title">Recommendations</h2>
     <ul class="col-12 row recommendations__list">
+        {{ range .Site.Data.recommendations.recommendations }}
         <li class="col-sm-4 recommendation">
             <div class="recommendation__person d-flex flex-row">
-                <img src="/images/sarah.png" alt="Sarah Doe" class="recommendation__photo">
+                <img src="/images/sarah.png" alt="{{ .name }}" class="recommendation__photo">
                 <div class="recommendation__description d-flex flex-column justify-content-center">
-                    <p class="bold recommendation__name">Sarah Doe</p>
-                    <p class="paragraph2 recommendation__title">title</p>
+                    <p class="bold recommendation__name">{{ .name }}</p>
+                    <p class="paragraph2 recommendation__title">{{ .title }}</p>
                 </div>
             </div>
-            <div class="recommendation__content">Moreover, their collaborative nature and excellent communication skills make them an effective team player. They actively engage with stakeholders and incorporate feedback to deliver outstanding results that align with project goals.</div>
+            <div class="recommendation__content">{{ .content }}</div>
         </li>
-        <li class="col-sm-4 recommendation">
-            <div class="recommendation__person d-flex flex-row">
-                <img src="/images/sarah.png" alt="Sarah Doe" class="recommendation__photo">
-                <div class="recommendation__description d-flex flex-column justify-content-center">
-                    <p class="bold recommendation__name">Sarah Doe</p>
-                    <p class="paragraph2 recommendation__title">title</p>
-                </div>
-            </div>
-            <div class="recommendation__content">Moreover, their collaborative nature and excellent communication skills make them an effective team player. They actively engage with stakeholders and incorporate feedback to deliver outstanding results that align with project goals.</div>
-        </li>
-        <li class="col-sm-4 recommendation">
-            <div class="recommendation__person d-flex flex-row">
-                <img src="/images/sarah.png" alt="Sarah Doe" class="recommendation__photo">
-                <div class="recommendation__description d-flex flex-column justify-content-center">
-                    <p class="bold recommendation__name">Sarah Doe</p>
-                    <p class="paragraph2 recommendation__title">title</p>
-                </div>
-            </div>
-            <div class="recommendation__content">Moreover, their collaborative nature and excellent communication skills make them an effective team player. They actively engage with stakeholders and incorporate feedback to deliver outstanding results that align with project goals.</div>
-        </li>
+        {{ end }}
     </ul>
 </section>
