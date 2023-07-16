@@ -1,0 +1,21 @@
+{{ define "main" }}
+<section class="row heading">
+    <h1 class="col-12 gap-xl">{{ .Title }}</h1>
+</section>
+<ul class="row justify-content-between projects-page__list">
+    {{ range .Pages.ByPublishDate }}
+    {{ $image := .Resources.GetMatch "thumbnail.png" }}
+    <li class="col-12 col-sm-5 projects-page__item">
+        {{ with $image }}
+        <img src="{{ .RelPermalink }}" width="100%" alt="{{ .Title }}">
+        {{ end }}
+        <a href="{{ .RelPermalink }}"><h4 class="bold">{{ .Title }}</h4></a>
+        <p class="mb-4">{{ .Description }}</p>
+        <p class="paragraph2 gray mb-4">{{ .Summary }}</p>
+        <div class="text-right">
+            <a href="{{ .RelPermalink }}"><button class="button button_secondary">Read more <img class="button__icon" src="/images/button-arrow.svg" alt="show more"></button></a>
+        </div>
+    </li>
+    {{ end }}
+</ul>
+{{ end }}

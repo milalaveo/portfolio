@@ -4,7 +4,7 @@
     <ul class="col-12 projects__list">
         {{ range $category.Pages }}
         {{ $image := .Resources.GetMatch "thumbnail.png" }}
-        <li class="row project__item">
+        <li class="row project__item gap-xl">
             <div class="col-sm-5 d-flex flex-column justify-content-between">
                 <div>
                     <p class="medium uppercase">{{ .Title }}</p>
@@ -15,7 +15,7 @@
                     <a href="{{ .RelPermalink }}" class="project__item-show-more">More shots from this project ↗</a>
                 </div>
             </div>
-            <div class="col-sm-6 offset-sm-1 project__item-image order-first order-sm-last">
+            <div class="col-sm-6 offset-sm-1 project__item-image order-first order-sm-last mb-3 mb-sm-0">
                 {{ with $image }}
                     <img src="{{ .RelPermalink }}" width="100%" alt="{{ .Title }}">
                 {{ end }}

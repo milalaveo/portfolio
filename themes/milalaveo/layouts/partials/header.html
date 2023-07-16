@@ -3,7 +3,8 @@
         <a href="/" class="logo"><img src="/images/logo.png" alt="Lolita"></a>
     </div>
     <nav class="col-6 header__navigation">
-        <ul class="navigation__list">
+        <input role="button" class="burger-trigger d-sm-none" type="checkbox" name="burger" id="header-burger">
+        <ul class="navigation__list burger-navigation">
             {{ range .Site.Menus.main }}
             <li><a href="{{ .URL }}">{{ .Name }}</a></li>&#10;&#13;
             {{ end }}

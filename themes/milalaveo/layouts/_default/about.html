@@ -1,0 +1,41 @@
+{{ define "main" }}
+<section class="row about gap-xl">
+    <div class="col-12 col-sm-6 about__body">
+        <h1 class="d-none d-sm-block">{{ .Title }}</h1>
+        {{ .Content }}
+    </div>
+    <div class="col-12 d-block d-sm-none order-first">
+        <h1>{{ .Title }}</h1>
+    </div>
+    <div class="col-12 col-sm-5 offset-sm-1 about__photo text-right order-first order-sm-last mb-4 mb-sm-0">
+        {{ $image := .Resources.GetMatch "profile.png" }}
+        {{ with $image }}
+        <img src="{{ .RelPermalink }}" alt="{{ .Title }}" width="100%">
+        {{ end }}
+    </div>
+</section>
+<section class="row about__skills gap-s">
+    <div class="col-12 col-sm-1 underline mb-4 mb-sm-0 about__skill-name">Languages</div>
+    <div class="col-12 col-sm-5 about__skill-value">
+        {{ range .Params.languages }}
+        <span>{{ . }}</span>
+        {{ end }}
+    </div>
+</section>
+<section class="row about__skills gap-s">
+    <div class="col-12 col-sm-1 underline mb-4 mb-sm-0 about__skill-name">Degrees</div>
+    <div class="col-12 col-sm-5 about__skill-value">
+        {{ range .Params.degrees }}
+        <span>{{ . }}</span>
+        {{ end }}
+    </div>
+</section>
+<section class="row about__skills gap-s">
+    <div class="col-12 col-sm-1 underline mb-4 mb-sm-0 about__skill-name">Stack</div>
+    <div class="col-12 col-sm-5 about__skill-value">
+        {{ range .Params.stack }}
+        <span>{{ . }}</span>
+        {{ end }}
+    </div>
+</section>
+{{ end }}

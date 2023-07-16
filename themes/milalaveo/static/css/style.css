@@ -21,18 +21,46 @@ html {
     background-color: var(--background);
 }
 
+@keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+}
+
 h1 {
-    font-size: 4rem;
-    line-height: 3.875rem;
+    font-size: 2rem;
+    line-height: 2.375rem;
     font-weight: 700;
     text-transform: lowercase;
+    margin-bottom: 32px;
 }
 
 h2 {
-    line-height: 1.17;
+    font-size: 1.75rem;
+    line-height: 2.25rem;
     font-weight: 500;
-    font-size: 3rem;
     text-transform: lowercase;
+}
+
+h3 {
+    font-size: 1.5rem;
+    line-height: 1.9375rem;
+    font-weight: 400;
+    text-transform: lowercase;
+}
+
+h4 {
+    font-size: 1.375rem;
+    line-height: 1.8125rem;
+    font-weight: 500;
+    text-transform: lowercase;
+}
+
+.gap-xl {
+    margin-bottom: 64px;
+}
+
+.gap-s {
+    margin-bottom: 32px;
 }
 
 .medium {
@@ -64,8 +92,16 @@ h2 {
     text-transform: capitalize;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 .text-center {
     text-align: center;
+}
+
+.text-right {
+    text-align: right;
 }
 
 .paragraph1, p {
@@ -94,6 +130,7 @@ a:active {
 }
 
 .button {
+    font-family: inherit;
     cursor: pointer;
     display: inline-block;
     padding: 12px 40px;
@@ -102,8 +139,10 @@ a:active {
     background-color: var(--button-primary);
     color: var(--background);
     font-weight: 700;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, border 0.3s;
     border: none;
+    width: 100%;
+    text-transform: lowercase;
 }
 
 .button:hover {
@@ -112,6 +151,22 @@ a:active {
 
 .button:active {
     background-color: var(--button-primary-pressed);
+}
+
+.button_secondary {
+    color: var(--main-black);
+    background-color: transparent;
+    border: 1px solid var(--main-black);
+}
+
+.button_secondary:hover {
+    border: 1px solid var(--secondary-2);
+    background-color: transparent;
+}
+
+.button_secondary:active {
+    border: 1px solid var(--secondary);
+    background-color: transparent;
 }
 
 .button__icon {
@@ -123,7 +178,11 @@ a:active {
 }
 
 .container {
-    margin: 120px auto;
+    margin: 32px auto;
+}
+
+.header {
+    margin-bottom: 64px;
 }
 
 .header__icon a {
@@ -136,6 +195,7 @@ a:active {
 
 .header__navigation {
     line-height: 1.625;
+    text-align: right;
 }
 
 .navigation__list {
@@ -151,8 +211,54 @@ a:active {
     letter-spacing: initial;
 }
 
-.hero__heading, .hero__subheading {
+.burger-trigger {
+    z-index: 99;
+    position: relative;
+    appearance: none;
+}
+
+.burger-trigger::after {
+    content: "";
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background-image: url("/images/burger.svg");
+    background-size: contain;
+}
+
+.burger-trigger:checked::after {
+    background-image: url("/images/cross.svg");
+}
+
+.burger-trigger:checked ~ .burger-navigation {
+    transform: translateX(0);
+}
+
+.burger-navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 80;
+    background-color: var(--background);
+    padding: 88px 24px 0;
+    transform: translateX(100%);
+    transition: transform 0.3s;
+}
+
+.burger-navigation li {
+    display: block;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.burger-navigation li:last-of-type {
     margin-bottom: 0;
+}
+
+.hero__heading, .hero__subheading {
+    margin-bottom: 24px;
 }
 
 .hero__subheading {
@@ -163,25 +269,38 @@ a:active {
 }
 
 .hero {
-    margin-top: 180px;
-    margin-bottom: 120px;
+    margin-top: 64px;
+    margin-bottom: 64px;
     align-items: flex-end;
 }
 
-.brands {
-    margin-bottom: 120px;
-}
-
-.brands__title {
+.brands__list {
+    height: 75px;
+    overflow: hidden;
+    position: relative;
     margin-bottom: 64px;
 }
 
-.brands__list {
-    margin: 64px 0;
+.brands__inner {
+    display: flex;
+    animation: marquee 5s linear infinite;
 }
 
-.project__item {
-    margin-bottom: 120px;
+.brands__inner:hover {
+    animation-play-state: paused;
+}
+
+.brands__brand {
+    float: left;
+    transition: all .2s ease-out;
+    margin: 0 30px;
+    opacity: .5;
+}
+
+.brands__brand:hover {
+    transform: scale(1.2);
+    opacity: 1;
+    cursor: pointer;
 }
 
 .project__item:last-of-type {
@@ -189,11 +308,11 @@ a:active {
 }
 
 .projects__title {
-    margin-bottom: 120px;
+    margin-bottom: 32px;
 }
 
 .project__item-description {
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
 }
 
 .project__item-show-more {
@@ -203,11 +322,12 @@ a:active {
 }
 
 .recommendations__title {
-    margin-bottom: 88px;
+    margin-bottom: 24px;
 }
 
 .recommendation {
-    padding: 24px;
+    padding: 12px;
+    margin-bottom: 24px;
 }
 
 .recommendation__person {
@@ -230,6 +350,15 @@ a:active {
     line-height: 1.625rem;
 }
 
+.contact__title {
+    margin-bottom: 32px;
+}
+
+.contact__email {
+    margin-bottom: 12px;
+    font-weight: 700;
+}
+
 .footer {
     line-height: 1.625;
 }
@@ -241,7 +370,143 @@ a:active {
 
 hr {
     border: none;
-    margin: 120px auto;
+    margin: 64px auto;
     background-color: var(--main-black);
     height: 1px;
+}
+
+.projects-page__list {
+    margin-bottom: -32px;
+}
+
+.projects-page__item {
+    margin-bottom: 32px;
+}
+
+.projects-page__item h4 {
+    margin-top: 18px;
+    margin-bottom: 24px;
+}
+
+.about__body p {
+    color: var(--main-gray)
+}
+
+@media screen and (min-width: 576px) {
+    h1 {
+        font-size: 4rem;
+        line-height: 3.875rem;
+    }
+
+    h2 {
+        line-height: 1.17;
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 2.375rem;
+        line-height: 3.0625rem;
+    }
+
+    h4 {
+        font-size: 1.875rem;
+        line-height: 2.625rem;
+    }
+
+    hr {
+        margin: 120px auto;
+    }
+
+    .paragraph1, p {
+        margin-bottom: 1.5rem;
+    }
+
+    .paragraph2 {
+        font-size: 0.875rem;
+        line-height: 1.375rem;
+    }
+
+    .button {
+        width: initial;
+    }
+
+    .gap-xl {
+        margin-bottom: 120px;
+    }
+
+    .gap-s {
+        margin-bottom: 64px;
+    }
+
+    .container {
+        margin: 120px auto;
+    }
+
+    .header {
+        margin-bottom: 120px;
+    }
+
+    .burger-navigation {
+        position: static;
+        padding: 0;
+        transform: none;
+    }
+
+    .burger-navigation li {
+        display: inline-block;
+    }
+
+    .hero {
+        margin-top: 180px;
+        margin-bottom: 120px;
+    }
+
+    .hero__heading, .hero__subheading {
+        margin-bottom: 0;
+    }
+
+    .brands {
+        margin-bottom: 120px;
+    }
+
+    .brands__inner {
+        animation: marquee 30s linear infinite;
+    }
+
+    .projects__title {
+        margin-bottom: 120px;
+    }
+
+    .project__item-description {
+        margin-bottom: 3rem;
+    }
+
+    .recommendations__title {
+        margin-bottom: 88px;
+    }
+
+    .recommendation {
+        padding: 24px;
+        margin-bottom: 0;
+    }
+
+    .contact__title {
+        margin-bottom: 0;
+    }
+
+    .contact__email {
+        font-weight: 500;
+    }
+
+    .projects-page__list {
+        margin-bottom: -120px;
+    }
+
+    .projects-page__item {
+        margin-bottom: 120px;
+    }
+
+    .projects-page__item h4 {
+        margin-top: 32px;
+    }
 }

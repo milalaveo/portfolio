@@ -1,17 +1,22 @@
+<hr>
 <section class="row recommendations">
     <h2 class="col-sm-5 recommendations__title">Recommendations</h2>
-    <ul class="col-12 row recommendations__list">
-        {{ range .Site.Data.recommendations.recommendations }}
-        <li class="col-sm-4 recommendation">
-            <div class="recommendation__person d-flex flex-row">
-                <img src="/images/sarah.png" alt="{{ .name }}" class="recommendation__photo">
-                <div class="recommendation__description d-flex flex-column justify-content-center">
-                    <p class="bold recommendation__name">{{ .name }}</p>
-                    <p class="paragraph2 recommendation__title">{{ .title }}</p>
+    <div class="col-12 recommendations__list">
+        <ul class="row">
+            {{ range .Site.Data.recommendations.recommendations }}
+            <li class="col-sm-4">
+                <div class="recommendation">
+                    <div class="recommendation__person d-flex flex-row">
+                        <img src="/images/sarah.png" alt="{{ .name }}" class="recommendation__photo">
+                        <div class="recommendation__description d-flex flex-column justify-content-center">
+                            <p class="bold recommendation__name">{{ .name }}</p>
+                            <p class="paragraph2 recommendation__title">{{ .title }}</p>
+                        </div>
+                    </div>
+                    <div class="recommendation__content">{{ .content }}</div>
                 </div>
-            </div>
-            <div class="recommendation__content">{{ .content }}</div>
-        </li>
-        {{ end }}
-    </ul>
+            </li>
+            {{ end }}
+        </ul>
+    </div>
 </section>

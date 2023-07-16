@@ -1,4 +1,28 @@
 <section class="row brands">
-    <h2 class="col-12 brands__title">Worked with:</h2>
-    <div class="col-12 brands__list">pisbka sisbka</div>
+    <h2 class="col-12 brands__title gap-s">Worked with:</h2>
+    <div class="col-12 brands__list">
+        <div class="brands__inner">
+            {{ range .Site.Data.brands.brands }}
+            <img src="{{ .logo }}" alt="{{ .name }}" class="brands__brand">
+            {{ end }}
+            {{ range .Site.Data.brands.brands }}
+            <img src="{{ .logo }}" alt="{{ .name }}" class="brands__brand">
+            {{ end }}
+            {{ range .Site.Data.brands.brands }}
+            <img src="{{ .logo }}" alt="{{ .name }}" class="brands__brand">
+            {{ end }}
+            {{ range .Site.Data.brands.brands }}
+            <img src="{{ .logo }}" alt="{{ .name }}" class="brands__brand">
+            {{ end }}
+            {{ range .Site.Data.brands.brands }}
+            <img src="{{ .logo }}" alt="{{ .name }}" class="brands__brand">
+            {{ end }}
+            {{ range .Site.Data.brands.brands }}
+            <img src="{{ .logo }}" alt="{{ .name }}" class="brands__brand">
+            {{ end }}
+            {{ range .Site.Data.brands.brands }}
+            <img src="{{ .logo }}" alt="{{ .name }}" class="brands__brand">
+            {{ end }}
+        </div>
+    </div>
 </section>
