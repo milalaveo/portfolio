@@ -1,10 +1,29 @@
+{{ $category := .Site.GetPage "/projects" }}
 <section class="row projects">
     <h2 class="col-sm-5 projects__title">A small selection of&nbsp;my work.</h2>
-    <ul class="col-12 row projects__list">
-        {{ range .Pages }}
-            <li class="col-12 project__item">
-                {{ .Title }}
-            </li>
+    <ul class="col-12 projects__list">
+        {{ range $category.Pages }}
+        {{ $image := .Resources.GetMatch "thumbnail.png" }}
+        <li class="row project__item">
+            <div class="col-sm-5 d-flex flex-column justify-content-between">
+                <div>
+                    <p class="medium uppercase">{{ .Title }}</p>
+                    <p class="project__item-description">{{ .Description }}</p>
+                    <p class="paragraph2 gray">{{ .Summary }}</p>
+                </div>
+                <div>
+                    <a href="{{ .RelPermalink }}" class="project__item-show-more">More shots from this project ↗</a>
+                </div>
+            </div>
+            <div class="col-sm-6 offset-sm-1 project__item-image">
+                {{ with $image }}
+                    <img src="{{ .RelPermalink }}" width="100%" alt="{{ .Title }}">
+                {{ end }}
+            </div>
+        </li>
         {{ end }}
     </ul>
+    <div class="col-12 text-center">
+        <button class="button">show more projects <img class="button__icon" src="/images/button-arrow.svg" alt="show more"></button>
+    </div>
 </section>

@@ -1,9 +1,17 @@
 :root {
     --main-black: #181717;
     --secondary: #2429AF;
-    --secondary-2: #2429AF;
+    --secondary-2: #3A40D3;
     --main-gray: #606060;
     --background: #F3F3F3;
+    /*button colors*/
+    --button-primary: var(--secondary-2);
+    --button-primary-hover: var(--secondary);
+    --button-primary-pressed: #121577;
+    /*secondary button*/
+    --button-secondary: var(--main-black);
+    --button-secondary-hover: var(--secondary-2);
+    --button-secondary-pressed: var(--secondary);
 }
 
 html {
@@ -14,15 +22,60 @@ html {
 }
 
 h1 {
-    font-size: 3.33rem;
+    font-size: 4rem;
     line-height: 1.2;
     font-weight: 700;
+    text-transform: lowercase;
 }
 
 h2 {
     line-height: 1.17;
     font-weight: 400;
     font-size: 2rem;
+}
+
+.medium {
+    font-weight: 500;
+}
+
+
+.semibold {
+    font-weight: 600;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.gray {
+    color: var(--main-gray);
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.paragraph1, p {
+    font-size: 1rem;
+    line-height: 1.625rem;
+    margin-bottom: 1.5rem;
+}
+
+.paragraph2 {
+    font-size: 0.875rem;
+    line-height: 1.375rem;
 }
 
 a {
@@ -37,6 +90,34 @@ a:hover {
 
 a:active {
     color: var(--secondary-2);
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 40px;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    background-color: var(--button-primary);
+    color: var(--background);
+    font-weight: 700;
+    transition: background-color 0.3s;
+    border: none;
+}
+
+.button:hover {
+    background-color: var(--button-primary-hover);
+}
+
+.button:active {
+    background-color: var(--button-primary-pressed);
+}
+
+.button__icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    line-height: 1.625rem;
+    margin-left: 12px;
+    vertical-align: middle;
 }
 
 .container {
@@ -80,7 +161,7 @@ a:active {
 }
 
 .hero {
-    margin-top: 240px;
+    margin-top: 180px;
     margin-bottom: 120px;
     align-items: flex-end;
 }
@@ -97,11 +178,29 @@ a:active {
     margin: 64px 0;
 }
 
+.project__item {
+    margin-bottom: 120px;
+}
+
+.project__item:last-of-type {
+    margin-bottom: 64px;
+}
+
 .projects__title {
     font-size: 3.33rem;
     letter-spacing: -1.8px;
     font-weight: 500;
     margin-bottom: 120px;
+}
+
+.project__item-description {
+    margin-bottom: 3rem;
+}
+
+.project__item-show-more {
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+    text-decoration: underline;
 }
 
 .footer {
