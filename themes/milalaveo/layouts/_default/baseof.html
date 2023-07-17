@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+{{ $app := resources.Get "/js/script.js" | fingerprint "sha512" }}
 <html lang="{{ site.LanguageCode }}">
     {{- partial "head.html" . -}}
     <body>
@@ -7,6 +8,6 @@
         {{- block "main" . }}{{- end }}
         {{- partial "footer.html" . -}}
     </div>
-    <script src="/js/script.js"></script>
+    <script src="{{ $app.Permalink }}" integrity="{{ $app.Data.Integrity }}"></script>
     </body>
 </html>

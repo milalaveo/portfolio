@@ -1,9 +1,10 @@
+{{ $styles := resources.Get "/css/style.css" | fingerprint "sha512" }}
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/css/reset.css" >
     <link rel="stylesheet" href="/css/bootstrap-grid.min.css" >
-    <link rel="stylesheet" href="/css/style.css" >
+    <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" >
     <link rel="stylesheet" href="/css/gt-walsheim.css" >
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     {{ $title := print .Site.Title " | " .Title }}
