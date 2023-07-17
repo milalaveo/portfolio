@@ -288,6 +288,7 @@ a:active {
 
 .marquee {
     white-space: nowrap;
+    letter-spacing: -4px;
 }
 
 .marquee span {
