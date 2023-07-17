@@ -4,11 +4,9 @@
 </section>
 <ul class="row justify-content-between projects-page__list">
     {{ range .Pages.ByPublishDate }}
-    {{ $image := .Resources.GetMatch "thumbnail.png" }}
+    {{ $image := (dict "image" (.Resources.GetMatch "thumbnail.png") "alt" .Title) }}
     <li class="col-12 col-sm-5 projects-page__item">
-        {{ with $image }}
-        <img src="{{ .RelPermalink }}" width="100%" alt="{{ .Title }}">
-        {{ end }}
+        {{ partial "image" $image }}
         <a href="{{ .RelPermalink }}"><h4 class="bold">{{ .Title }}</h4></a>
         <p class="mb-4">{{ .Description }}</p>
         <p class="paragraph2 gray mb-4">{{ .Params.subtitle }}</p>
