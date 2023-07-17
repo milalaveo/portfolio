@@ -530,7 +530,7 @@ main .row.images {
     }
 
     .marquee span {
-        animation: marquee 5s linear infinite;
+        animation: marquee 30s linear infinite;
     }
 
     .projects__title {
