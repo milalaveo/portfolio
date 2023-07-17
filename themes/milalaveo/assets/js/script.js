@@ -23,9 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     var inner = inners[0];
     var innerWidth = inner.getBoundingClientRect().width;
-
-    console.log(width, innerWidth);
-    const requiredSize = Math.ceil(width / innerWidth) + 1;
+    var requiredSize = Math.ceil(width / innerWidth) + 1;
 
     for (var j = 0; j < requiredSize; j++) {
       marquees[i].appendChild(inner.cloneNode(true));
