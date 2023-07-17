@@ -1,0 +1,4 @@
+{{- $size := default 12 (.Get 0) }}
+<div class="col-12 col-sm-{{ $size }}">
+    {{ .Inner | $.Page.RenderString -}}
+</div>

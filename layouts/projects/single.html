@@ -1,5 +1,15 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
-<br><br>
-{{ .Content }}
+<h4 class="gap-s">{{ .Description }}</h4>
+<main>
+    <div class="row">
+        {{ $image := .Resources.GetMatch "thumbnail.png" }}
+        <div class="col-12">
+            {{ with $image }}
+            <img src="{{ .RelPermalink }}" width="100%" alt="{{ .Title }}">
+            {{ end }}
+        </div>
+    </div>
+    {{ .Content }}
+</main>
 {{ end }}

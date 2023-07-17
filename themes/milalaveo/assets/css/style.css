@@ -436,6 +436,19 @@ hr {
     color: #B4B4B4;
 }
 
+main h4 {
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+main .row img {
+    width: 100%;
+}
+
+main .row.images {
+    margin-bottom: 32px;
+}
+
 @media screen and (min-width: 576px) {
     h1 {
         font-size: 4rem;
@@ -552,5 +565,22 @@ hr {
 
     .projects-page__item h4 {
         margin-top: 32px;
+    }
+
+    main .row {
+        margin-bottom: 64px;
+    }
+
+    main .row.images {
+        margin-bottom: 64px;
+    }
+
+    main .row img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    main .row p:last-of-type {
+        margin-bottom: 0;
     }
 }
