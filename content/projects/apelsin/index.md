@@ -1,6 +1,6 @@
 ---
-title: "01 / Apelsin"
-description: "Goblin concept digital sculpture with human-like skin. Learned a lot of quick tips and look development."
+title: "01 / Apelsin Payment System"
+description: "Introducing mobile payment system, revolutionizing the way you make secure and convenient transactions on the go."
 subtitle: "Sculpted in ZBrush, Retopologized and UVs done in Maya, Textured in Mari, Rendered using Arnold."
 projectURL: "https://apelsin.com"
 date: 2023-07-16T11:57:01+02:00
