@@ -217,6 +217,7 @@ a:active {
 
 .burger-trigger {
     z-index: 99;
+    display: inline;
     position: relative;
     appearance: none;
 }
