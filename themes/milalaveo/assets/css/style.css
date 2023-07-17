@@ -293,7 +293,9 @@ a:active {
 .marquee span {
     letter-spacing: initial;
     display: inline-flex;
-    animation: marquee 5s linear infinite;
+    font-style: italic;
+    font-size: 1.5rem;
+    animation: marquee 30s linear infinite;
 }
 
 .marquee:hover span {
@@ -525,12 +527,8 @@ main .row.images {
         margin-bottom: 0;
     }
 
-    .brands {
-        margin-bottom: 120px;
-    }
-
     .marquee span {
-        animation-duration: 30s;
+        font-size: 2.375rem;
     }
 
     .projects__title {
