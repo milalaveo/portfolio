@@ -309,7 +309,6 @@ a:active {
 .brands__brand:hover {
     transform: scale(1.2);
     opacity: 1;
-    cursor: pointer;
 }
 
 .project__item:last-of-type {
