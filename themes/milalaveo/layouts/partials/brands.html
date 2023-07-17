@@ -3,7 +3,7 @@
     <div class="col-12 brands__list marquee">
         <span>
             {{ range .Site.Data.brands.brands }}
-                <img src="{{ .logo }}" alt="{{ .name }}" class="brands__brand">
+                <a href="{{ .url }}" class="brands__brand">{{ .name }}</a>
             {{ end }}
         </span>
     </div>

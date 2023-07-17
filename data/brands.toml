@@ -1,12 +1,31 @@
 [[brands]]
-name = 'bali bwipa'
-logo = '/images/logos/bali-bank.svg'
+name = "Mirae Assets"
+url = "https://global.miraeasset.com/"
+
 [[brands]]
-name = 'KBS'
-logo = '/images/logos/kbs.svg'
+name = "Shinsei Bank"
+url = "https://www.shinseibank.com/"
+
 [[brands]]
-name = 'Mirae Asset'
-logo = '/images/logos/mirae-asset.svg'
+name = "Epam Systems"
+url = "https://www.epam.com/"
+
 [[brands]]
-name = 'SBI'
-logo = '/images/logos/sbi.svg'
+name = "Korean Broadcasting System"
+url = "https://www.kbs.co.kr/"
+
+[[brands]]
+name = "Kapital Bank"
+url = "https://www.kapitalbank.az/"
+
+[[brands]]
+name = "Uzum Bank"
+url = "https://www.uzumbank.uz/"
+
+[[brands]]
+name = "Epam Anywhere"
+url = "https://anywhere.epam.com/"
+
+[[brands]]
+name = "Mighty Buildings"
+url = "https://www.mightybuildings.com/"
