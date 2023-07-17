@@ -555,6 +555,10 @@ main .row.images {
         margin-bottom: 0;
     }
 
+    .form__label {
+        margin-bottom: 24px;
+    }
+
     .contact__email {
         font-weight: 500;
     }
