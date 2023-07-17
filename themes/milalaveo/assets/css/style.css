@@ -280,23 +280,26 @@ a:active {
 }
 
 .brands__list {
-    height: 75px;
     overflow: hidden;
     position: relative;
+    padding: 16px 0;
     margin-bottom: 64px;
 }
 
-.brands__inner {
-    display: flex;
+.marquee {
+    white-space: nowrap;
+}
+
+.marquee span {
+    display: inline-flex;
     animation: marquee 5s linear infinite;
 }
 
-.brands__inner:hover {
+.marquee:hover span {
     animation-play-state: paused;
 }
 
 .brands__brand {
-    float: left;
     transition: all .2s ease-out;
     margin: 0 30px;
     opacity: .5;
@@ -526,8 +529,8 @@ main .row.images {
         margin-bottom: 120px;
     }
 
-    .brands__inner {
-        animation: marquee 30s linear infinite;
+    .marquee span {
+        animation: marquee 5s linear infinite;
     }
 
     .projects__title {

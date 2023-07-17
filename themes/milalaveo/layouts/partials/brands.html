@@ -1,28 +1,10 @@
 <section class="row brands">
     <h3 class="col-12 brands__title gap-s">Worked with:</h3>
-    <div class="col-12 brands__list">
-        <div class="brands__inner">
+    <div class="col-12 brands__list marquee">
+        <span>
             {{ range .Site.Data.brands.brands }}
-            <img src="{{ .logo }}" alt="{{ .name }}" class="brands__brand">
+                <img src="{{ .logo }}" alt="{{ .name }}" class="brands__brand">
             {{ end }}
-            {{ range .Site.Data.brands.brands }}
-            <img src="{{ .logo }}" alt="{{ .name }}" class="brands__brand">
-            {{ end }}
-            {{ range .Site.Data.brands.brands }}
-            <img src="{{ .logo }}" alt="{{ .name }}" class="brands__brand">
-            {{ end }}
-            {{ range .Site.Data.brands.brands }}
-            <img src="{{ .logo }}" alt="{{ .name }}" class="brands__brand">
-            {{ end }}
-            {{ range .Site.Data.brands.brands }}
-            <img src="{{ .logo }}" alt="{{ .name }}" class="brands__brand">
-            {{ end }}
-            {{ range .Site.Data.brands.brands }}
-            <img src="{{ .logo }}" alt="{{ .name }}" class="brands__brand">
-            {{ end }}
-            {{ range .Site.Data.brands.brands }}
-            <img src="{{ .logo }}" alt="{{ .name }}" class="brands__brand">
-            {{ end }}
-        </div>
+        </span>
     </div>
 </section>
