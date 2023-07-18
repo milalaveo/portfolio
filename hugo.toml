@@ -3,7 +3,9 @@ languageCode = 'en-us'
 email = 'bloolya@gmail.com'
 title = 'Milalaveo'
 theme = 'milalaveo'
+[params]
 description = 'Lolita Malaeva portfolio'
+images = ['/images/og.png']
 
 [menu]
 [[menu.main]]

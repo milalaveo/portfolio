@@ -278,6 +278,23 @@ a:active {
     margin-bottom: 24px;
 }
 
+.hero__heading h1 {
+    font-size: 64px;
+    color: #3D1AD0;
+    line-height: 0;
+}
+
+.hero__heading h1 span {
+    color: var(--main-black);
+}
+
+.hero__l {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: -32px;
+    margin-bottom: -16px;
+}
+
 .hero__subheading {
     color: var(--main-gray);
     font-size: 1.125rem;
@@ -541,6 +558,10 @@ picture figcaption {
 
     .hero__heading, .hero__subheading {
         margin-bottom: 0;
+    }
+
+    .hero__heading h1 {
+        font-size: 96px;
     }
 
     .marquee span {

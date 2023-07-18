@@ -16,7 +16,7 @@
                 </div>
             </div>
             <div class="col-sm-6 offset-sm-1 project__item-image order-first order-sm-last mb-3 mb-sm-0">
-                {{ partial "image" $image }}
+                <a href="{{ .RelPermalink }}">{{ partial "image" $image }}</a>
             </div>
         </li>
         {{ end }}
