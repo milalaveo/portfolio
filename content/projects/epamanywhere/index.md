@@ -1,9 +1,9 @@
 ---
-title: "03 / EPAM Anywhere"
+title: "EPAM Anywhere"
 description: "Goblin concept digital sculpture with human-like skin. Learned a lot of quick tips and look development."
 subtitle: "Sculpted in ZBrush, Retopologized and UVs done in Maya, Textured in Mari, Rendered using Arnold."
 projectURL: "https://anywhere.epam.com"
-date: 2023-07-16T13:57:01+02:00
+date: 2023-07-16T1:57:01+02:00
 draft: false
 ---
 {{< row >}}

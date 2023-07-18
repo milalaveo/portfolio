@@ -1,9 +1,9 @@
 ---
-title: "Apelsin web"
+title: "Apelsin marketplace"
 description: "Goblin concept digital sculpture with human-like skin. Learned a lot of quick tips and look development."
 subtitle: "Sculpted in ZBrush, Retopologized and UVs done in Maya, Textured in Mari, Rendered using Arnold."
-projectURL: "https://apelsinweb.com"
-date: 2023-07-16T12:57:01+02:00
+projectURL: "https://apelsinmarketplace.com"
+date: 2023-07-16T14:57:01+02:00
 draft: false
 ---
 {{< row >}}
@@ -24,7 +24,12 @@ Before new feature implementation I conducted a workshop with Product Managers t
 {{< /row >}}
 {{< row class="images" >}}
 {{< column >}}
-![Apelsin web](apelsin-web.png)
+![Apelsin marketplace](apelsin-marketplace.png)
+{{< /column >}}
+{{< /row >}}
+{{< row class="images" >}}
+{{< column >}}
+![Apelsin marketplace 3](apelsin-marketplace-3.png)
 {{< /column >}}
 {{< /row >}}
 {{< row >}}
@@ -35,11 +40,6 @@ Before new feature implementation I conducted a workshop with Product Managers t
 {{< /row >}}
 {{< row class="images" >}}
 {{< column >}}
-![Apelsin web2](apelsin-web2.png)
-{{< /column >}}
-{{< /row >}}
-{{< row class="images" >}}
-{{< column >}}
-![Apelsin web3](apelsin-web3.png)
+![Apelsin marketplace 2](apelsin-marketplace-2.png)
 {{< /column >}}
 {{< /row >}}

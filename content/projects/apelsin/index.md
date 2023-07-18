@@ -1,5 +1,5 @@
 ---
-title: "01 / Apelsin Payment System"
+title: "Apelsin Payment System"
 description: "Introducing mobile payment system, revolutionizing the way you make secure and convenient transactions on the go."
 subtitle: "Sculpted in ZBrush, Retopologized and UVs done in Maya, Textured in Mari, Rendered using Arnold."
 projectURL: "https://apelsin.com"
