@@ -3,7 +3,7 @@
 <h4 class="gap-s">{{ .Description }}</h4>
 <main>
     <div class="row">
-        {{ $image := (dict "image" (.Resources.GetMatch "thumbnail.png") "alt" .Title) }}
+        {{ $image := (dict "image" (.Resources.GetMatch "thumbnail.png") "alt" .Title "lightbox" true) }}
         <div class="col-12">
             {{ partial "image" $image }}
         </div>

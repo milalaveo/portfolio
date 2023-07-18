@@ -2,7 +2,7 @@
 <section class="row projects">
     <h2 class="col-sm-5 projects__title">A small selection of&nbsp;my work</h2>
     <ul class="col-12 projects__list">
-        {{ range $category.Pages }}
+        {{ range last 3 $category.Pages }}
         {{ $image := (dict "image" (.Resources.GetMatch "thumbnail.png") "alt" .Title) }}
         <li class="row project__item gap-xl">
             <div class="col-sm-5 d-flex flex-column justify-content-between">

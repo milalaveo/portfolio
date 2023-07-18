@@ -7,6 +7,7 @@
 {{ $medium_2x := .Resize "2000x" }}
 {{ $small_2x := .Resize "640x" }}
 <figure>
+    <a data-fslightbox href="{{ $large_2x.RelPermalink }}">
     <picture>
         <source media="(min-width: 60em)" srcset="{{ $large_2x.RelPermalink }} 2x, {{ $large.RelPermalink }} 1x">
         <source media="(min-width: 38em)" srcset="{{ $medium_2x.RelPermalink }} 2x, {{ $medium.RelPermalink }} 1x">
@@ -15,5 +16,6 @@
         <figcaption>{{ . }}</figcaption>
         {{ end }}
     </picture>
+    </a>
 </figure>
 {{ end }}
