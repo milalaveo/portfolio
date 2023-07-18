@@ -24,7 +24,7 @@ description = 'Lolita Malaeva portfolio'
     weight = 40
 [[menu.footer]]
     name = 'LinkedIn'
-    url = 'https://linkedin.com'
+    url = 'https://www.linkedin.com/in/lolita-malaeva-72b480227/'
     weight = 10
 [[menu.footer]]
     name = 'GitHub'
