@@ -7,7 +7,7 @@
         <li class="row project__item gap-xl">
             <div class="col-sm-5 d-flex flex-column justify-content-between">
                 <div>
-                    <p class="medium uppercase">{{ .Title }}</p>
+                    <a href="{{ .RelPermalink }}"><h4 class="bold lowercase mb-3">{{ .Title }}</h4></a>
                     <p class="project__item-description">{{ .Description }}</p>
                     <p class="paragraph2 gray">{{ .Params.subtitle }}</p>
                 </div>

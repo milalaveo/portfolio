@@ -61,6 +61,6 @@ Before new feature implementation I conducted a workshop with Product Managers t
 {{< /row >}}
 {{< row class="images" >}}
 {{< column >}}
-![Apelsin screens](apelsin-screens.png)
+![Apelsin screens](apelsin-screens.png "Lorem ipsum dolor sit amet")
 {{< /column >}}
 {{< /row >}}

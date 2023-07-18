@@ -466,6 +466,10 @@ main .row.images {
     margin-bottom: 32px;
 }
 
+picture figcaption {
+    margin-top: 16px;
+}
+
 @media screen and (min-width: 576px) {
     h1 {
         font-size: 4rem;
