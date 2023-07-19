@@ -13,15 +13,15 @@
     </div>
 </section>
 <section class="row about__skills gap-s">
-    <p class="col-12 col-sm-1 underline mb-4 mb-sm-0 about__skill-name">Languages</p>
-    <p class="col-12 col-sm-5 mb-0 about__skill-value">{{ .Params.languages }}</p>
+    <p class="col-12 col-sm-1 underline mb-4 mb-sm-0 about__skill-name">Skills</p>
+    <p class="col-12 col-sm-5 mb-0 about__skill-value">{{ .Params.skills }}</p>
 </section>
 <section class="row about__skills gap-s">
     <p class="col-12 col-sm-1 underline mb-4 mb-sm-0 about__skill-name">Degrees</p>
-    <p class="col-12 col-sm-5 mb-0 about__skill-value">{{ .Params.degrees }}</p>
+    <div class="col-12 col-sm-5 mb-0 about__skill-value">{{ .Params.degrees | markdownify }}</div>
 </section>
 <section class="row about__skills gap-s">
-    <p class="col-12 col-sm-1 underline mb-4 mb-sm-0 about__skill-name">Stack</p>
-    <p class="col-12 col-sm-5 mb-0 about__skill-value">{{ .Params.stack }}</p>
+    <p class="col-12 col-sm-1 underline mb-4 mb-sm-0 about__skill-name">Languages</p>
+    <p class="col-12 col-sm-5 mb-0 about__skill-value">{{ .Params.languages }}</p>
 </section>
 {{ end }}

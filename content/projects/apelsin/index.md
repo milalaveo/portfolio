@@ -9,17 +9,32 @@ draft: false
 {{< row >}}
 {{< column 6 >}}
 #### activities
-Before new feature implementation I conducted a workshop with Product Managers to visual is etheir ideas and agree on MVP limitations. We did a couple interesting excersises starting from defining desired goals, expected pains and customer jobs and finishing with a sort of aflow chart. This investigation helped to come up with the designs fairly quickly.
+Before new feature implementation I conducted a workshop with
+Product Managers to visual is etheir ideas and agree on MVP limitations.
+We did a couple interesting excersises starting from defining
+desired goals, expected pains and customer jobs and finishing
+with a sort of aflow chart. This investigation helped to come up
+with the designs fairly quickly.
 {{< /column >}}
 {{< column 6 >}}
 #### results
-Before new feature implementation I conducted a workshop with Product Managers to visual is etheir ideas and agree on MVP limitations. We did a couple interesting excersises starting from defining desired goals, expected pains and customer jobs and finishing with a sort of aflow chart. This investigation helped to come up with the designs fairly quickly.
+Before new feature implementation I conducted a workshop with
+Product Managers to visual is etheir ideas and agree on MVP limitations.
+We did a couple interesting excersises starting from defining
+desired goals, expected pains and customer jobs and finishing
+with a sort of aflow chart. This investigation helped to come up
+with the designs fairly quickly.
 {{< /column >}}
 {{< /row >}}
 {{< row >}}
 {{< column 6 >}}
 #### my role
-Before new feature implementation I conducted a workshop with Product Managers to visual is etheir ideas and agree on MVP limitations. We did a couple interesting excersises starting from defining desired goals, expected pains and customer jobs and finishing with a sort of aflow chart. This investigation helped to come up with the designs fairly quickly.
+Before new feature implementation I conducted a workshop with 
+Product Managers to visual is etheir ideas and agree on MVP limitations. 
+We did a couple interesting excersises starting from defining 
+desired goals, expected pains and customer jobs and finishing 
+with a sort of aflow chart. This investigation helped to come up 
+with the designs fairly quickly.
 {{< /column >}}
 {{< /row >}}
 {{< row class="images" >}}
@@ -30,7 +45,12 @@ Before new feature implementation I conducted a workshop with Product Managers t
 {{< row >}}
 {{< column >}}
 #### challenges
-Before new feature implementation I conducted a workshop with Product Managers to visual is etheir ideas and agree on MVP limitations. We did a couple interesting excersises starting from defining desired goals, expected pains and customer jobs and finishing with a sort of aflow chart. This investigation helped to come up with the designs fairly quickly.
+Before new feature implementation I conducted a workshop with
+Product Managers to visual is etheir ideas and agree on MVP limitations.
+We did a couple interesting excersises starting from defining
+desired goals, expected pains and customer jobs and finishing
+with a sort of aflow chart. This investigation helped to come up
+with the designs fairly quickly.
 {{< /column >}}
 {{< /row >}}
 {{< row class="images" >}}
@@ -44,11 +64,26 @@ Before new feature implementation I conducted a workshop with Product Managers t
 {{< row >}}
 {{< column >}}
 #### challenges
-Before new feature implementation I conducted a workshop with Product Managers to visual is etheir ideas and agree on MVP limitations. We did a couple interesting excersises starting from defining desired goals, expected pains and customer jobs and finishing with a sort of aflow chart. This investigation helped to come up with the designs fairly quickly.
+Before new feature implementation I conducted a workshop with 
+Product Managers to visual is etheir ideas and agree on MVP limitations. 
+We did a couple interesting excersises starting from defining 
+desired goals, expected pains and customer jobs and finishing 
+with a sort of aflow chart. This investigation helped to come up 
+with the designs fairly quickly.
 
-Before new feature implementation I conducted a workshop with Product Managers to visual is etheir ideas and agree on MVP limitations. We did a couple interesting excersises starting from defining desired goals, expected pains and customer jobs and finishing with a sort of aflow chart. This investigation helped to come up with the designs fairly quickly.
+Before new feature implementation I conducted a workshop with 
+Product Managers to visual is etheir ideas and agree on MVP limitations. 
+We did a couple interesting excersises starting from defining 
+desired goals, expected pains and customer jobs and finishing 
+with a sort of aflow chart. This investigation helped to come up 
+with the designs fairly quickly.
 
-Before new feature implementation I conducted a workshop with Product Managers to visual is etheir ideas and agree on MVP limitations. We did a couple interesting excersises starting from defining desired goals, expected pains and customer jobs and finishing with a sort of aflow chart. This investigation helped to come up with the designs fairly quickly.
+Before new feature implementation I conducted a workshop with 
+Product Managers to visual is etheir ideas and agree on MVP limitations. 
+We did a couple interesting excersises starting from defining 
+desired goals, expected pains and customer jobs and finishing 
+with a sort of aflow chart. This investigation helped to come up 
+with the designs fairly quickly.
 {{< /column >}}
 {{< /row >}}
 {{< row class="images" >}}
