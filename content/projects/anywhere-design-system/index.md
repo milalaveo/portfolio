@@ -1,7 +1,7 @@
 ---
 title: "EPAM Anywhere | Design System"
 description: "During the growth of EPAM Anywhere and its transition into the redesign phase, the importance of consistency across the program's offerings became evident. As a result, a decision was made to create a new design system, and I enthusiastically stepped forward to contribute my expertise to this exciting project."
-subtitle: "Sculpted in ZBrush, Retopologized and UVs done in Maya, Textured in Mari, Rendered using Arnold."
+subtitle: "Design system, UI Kit, Design ecosystems"
 reference: "epamanywhere"
 date: 2023-07-19T15:01:18+02:00
 draft: false
