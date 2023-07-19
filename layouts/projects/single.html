@@ -1,6 +1,10 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
-<h4 class="gap-s">{{ .Description }}</h4>
+<div class="row gap-s">
+    <div class="col-12">
+        <h1>{{ .Title }}</h1>
+        <h4>{{ .Description }}</h4>
+    </div>
+</div>
 <main>
     <div class="row">
         {{ $image := (dict "image" (.Resources.GetMatch "thumbnail.png") "alt" .Title "lightbox" true) }}
