@@ -1,7 +1,7 @@
 baseURL = 'https://milalaveo.com/'
 languageCode = 'en-us'
 email = 'bloolya@gmail.com'
-title = 'Milalaveo'
+title = 'Lolita Malaeva'
 theme = 'milalaveo'
 [params]
 description = 'Lolita Malaeva portfolio'

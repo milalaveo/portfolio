@@ -1,40 +1,19 @@
 ---
-title: "Mighty buildings"
-description: "Goblin concept digital sculpture with human-like skin. Learned a lot of quick tips and look development."
-subtitle: "Sculpted in ZBrush, Retopologized and UVs done in Maya, Textured in Mari, Rendered using Arnold."
-projectURL: "https://apelsinmarketplace.com"
+title: "Mighty Buildings - Beautiful, Sustainable Homes for All"
+description: "Revolutionary combination of 3D printing technology, advanced materials, and robotic automation brings to life the vision of beautiful and sustainable homes"
+subtitle: "UX/UI Design, Prototyping, User Research, SaaS"
+reference: "epamanywhere"
 date: 2023-07-16T15:57:01+02:00
 draft: false
 ---
 {{< row >}}
 {{< column 6 >}}
-#### activities
-Before new feature implementation I conducted a workshop with 
-Product Managers to visual is etheir ideas and agree on MVP limitations. 
-We did a couple interesting excersises starting from defining 
-desired goals, expected pains and customer jobs and finishing 
-with a sort of aflow chart. This investigation helped to come up 
-with the designs fairly quickly.
+#### Customer portal
+Customer Portal including a home configurator allowing customers to select and customize their home type and tracking system for their project, home production time and delivery.
 {{< /column >}}
 {{< column 6 >}}
-#### results
-Before new feature implementation I conducted a workshop with 
-Product Managers to visual is etheir ideas and agree on MVP limitations. 
-We did a couple interesting excersises starting from defining 
-desired goals, expected pains and customer jobs and finishing 
-with a sort of aflow chart. This investigation helped to come up 
-with the designs fairly quickly.
-{{< /column >}}
-{{< /row >}}
-{{< row >}}
-{{< column >}}
-#### challenges
-Before new feature implementation I conducted a workshop with 
-Product Managers to visual is etheir ideas and agree on MVP limitations. 
-We did a couple interesting excersises starting from defining 
-desired goals, expected pains and customer jobs and finishing 
-with a sort of aflow chart. This investigation helped to come up 
-with the designs fairly quickly.
+#### Mobile app
+My primary focus was on developing a mobile application with a virtual reality feature, enabling users to book house tours of their desired properties. Throughout this process, I collaborated closely with stakeholders and frequently had to justify and defend my design decisions. Additionally, I worked on crafting internal tools to streamline production regulation at the factory, as well as creating a customer portal for seamless interactions.
 {{< /column >}}
 {{< /row >}}
 {{< row class="images" >}}
@@ -47,28 +26,18 @@ with the designs fairly quickly.
 {{< /row >}}
 {{< row >}}
 {{< column >}}
-#### challenges
-Before new feature implementation I conducted a workshop with 
-Product Managers to visual is etheir ideas and agree on MVP limitations. 
-We did a couple interesting excersises starting from defining 
-desired goals, expected pains and customer jobs and finishing 
-with a sort of aflow chart. This investigation helped to come up 
-with the designs fairly quickly.
-{{< /column >}}
-{{< /row >}}
-{{< row >}}
-{{< column >}}
-#### challenges
-Before new feature implementation I conducted a workshop with 
-Product Managers to visual is etheir ideas and agree on MVP limitations. 
-We did a couple interesting excersises starting from defining 
-desired goals, expected pains and customer jobs and finishing 
-with a sort of aflow chart. This investigation helped to come up 
-with the designs fairly quickly.
+#### Results
+The implementation of customer portal tool has significantly improved the efficiency of sales managers and heightened the engagement of home buyers throughout all stages of the home production processes.
 {{< /column >}}
 {{< /row >}}
 {{< row class="images" >}}
 {{< column >}}
-![Mighty 2](mighty-2.png)
+![Mighty wireframes](mb2.png)
+{{< /column >}}
+{{< /row >}}
+{{< row >}}
+{{< column >}}
+#### erp
+I worked on an enterprise ERP system built on Odoo, but due to confidentiality agreements, I am unable to showcase it in my portfolio. Nevertheless, this experience was highly valuable, allowing me to contribute to a complex and confidential project.
 {{< /column >}}
 {{< /row >}}

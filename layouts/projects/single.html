@@ -13,6 +13,9 @@
         </div>
     </div>
     {{ .Content }}
-    <h4 class="project__show-more-heading">please check this work <img class="project__show-more-arrow" src="/images/button-arrow-dark.svg" alt="show more"> <a href="{{ .Params.projectURL }}" target="_blank">{{ .Title }}</a></h4>
+    {{ with .Params.reference }}
+        {{ $referencePage := $.Site.GetPage . }}
+        <h4 class="project__show-more-heading">please check this work <img class="project__show-more-arrow" src="/images/button-arrow-dark.svg" alt="show more"> <a href="{{ $referencePage.RelPermalink }}" target="_blank">{{ $referencePage.Title }}</a></h4>
+    {{ end }}
 </main>
 {{ end }}

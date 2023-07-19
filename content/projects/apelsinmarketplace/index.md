@@ -1,29 +1,19 @@
 ---
 title: "Apelsin marketplace"
-description: "Goblin concept digital sculpture with human-like skin. Learned a lot of quick tips and look development."
-subtitle: "Sculpted in ZBrush, Retopologized and UVs done in Maya, Textured in Mari, Rendered using Arnold."
-projectURL: "https://apelsinmarketplace.com"
+description: "The Apelsin mobile application's offspring product."
+subtitle: "UX/UI Design, Prototyping"
+reference: "apelsin"
 date: 2023-07-16T14:57:01+02:00
 draft: false
 ---
 {{< row >}}
 {{< column 6 >}}
 #### activities
-Before new feature implementation I conducted a workshop with 
-Product Managers to visual is etheir ideas and agree on MVP limitations. 
-We did a couple interesting excersises starting from defining 
-desired goals, expected pains and customer jobs and finishing 
-with a sort of aflow chart. This investigation helped to come up 
-with the designs fairly quickly.
+Prior to implementing the new feature, I facilitated a workshop with Product Managers to visualize their ideas and establish agreement on MVP limitations. During the session, we engaged in various interesting exercises, ranging from defining desired goals and expected challenges to identifying customer needs and jobs. The outcome included a flow chart of the process. This thorough investigation proved instrumental in expediting the design process, allowing us to develop the designs swiftly and effectively.
 {{< /column >}}
 {{< column 6 >}}
 #### results
-Before new feature implementation I conducted a workshop with 
-Product Managers to visual is etheir ideas and agree on MVP limitations. 
-We did a couple interesting excersises starting from defining 
-desired goals, expected pains and customer jobs and finishing 
-with a sort of aflow chart. This investigation helped to come up 
-with the designs fairly quickly.
+Three months before the MVP release, I became an integral part of the project, focused on ensuring its timely delivery. My role involved working with the existing library and expanding it by introducing new components. By immersing myself in every aspect of this extensive project, I gained a profound understanding of its intricacies and complexities. This holistic involvement proved invaluable in contributing to the successful delivery of the product.
 {{< /column >}}
 {{< /row >}}
 {{< row class="images" >}}
@@ -38,13 +28,8 @@ with the designs fairly quickly.
 {{< /row >}}
 {{< row >}}
 {{< column >}}
-#### challenges
-Before new feature implementation I conducted a workshop with 
-Product Managers to visual is etheir ideas and agree on MVP limitations. 
-We did a couple interesting excersises starting from defining 
-desired goals, expected pains and customer jobs and finishing 
-with a sort of aflow chart. This investigation helped to come up 
-with the designs fairly quickly.
+#### Result
+The product received a highly positive response and rapidly attracted its first users. Our collaboration with the bank allowed us to offer new clients a reduced price, which served as a strong incentive for them to try out the new service. This strategic partnership played a significant role in driving early adoption and fostering a successful launch for the product.
 {{< /column >}}
 {{< /row >}}
 {{< row class="images" >}}
