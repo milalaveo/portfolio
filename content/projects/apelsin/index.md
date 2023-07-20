@@ -47,6 +47,11 @@ redesigns of the screens to address these concerns effectively.
 ![Wireframes](apelsin-wireframes.png)
 {{< /column >}}
 {{< /row >}}
+{{< row class="images" >}}
+{{< column >}}
+![Scheme](apelsin-scheme.png)
+{{< /column >}}
+{{< /row >}}
 {{< row >}}
 {{< column >}}
 #### Design system in 2 months

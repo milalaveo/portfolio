@@ -18,10 +18,20 @@ My primary focus was on developing a mobile application with a virtual reality f
 {{< /row >}}
 {{< row class="images" >}}
 {{< column 5 >}}
-![Mighty 1-1](mighty1-2.png)
+![Mighty 1-1](mighty1-1.png)
 {{< /column >}}
 {{< column 7 >}}
-![Mighty 1-2](mighty1-1.png)
+![Mighty 1-2](mighty1-2.png)
+{{< /column >}}
+{{< /row >}}
+{{< row class="images" >}}
+{{< column >}}
+![Mighty wireframes](mb2.png)
+{{< /column >}}
+{{< /row >}}
+{{< row class="images" >}}
+{{< column >}}
+![Mighty wireframes](mb3.png)
 {{< /column >}}
 {{< /row >}}
 {{< row >}}
@@ -32,7 +42,7 @@ The implementation of customer portal tool has significantly improved the effici
 {{< /row >}}
 {{< row class="images" >}}
 {{< column >}}
-![Mighty wireframes](mb2.png)
+![Mighty wireframes](mb4.png)
 {{< /column >}}
 {{< /row >}}
 {{< row >}}
