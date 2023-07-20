@@ -42,7 +42,7 @@ the redesign process:
 {{< /row >}}
 {{< row class="images" >}}
 {{< column >}}
-![EPAM Flow](epam-flow.png)
+![EPAM Flow](epam-flow-1.png)
 {{< /column >}}
 {{< /row >}}
 {{< row >}}
@@ -63,7 +63,7 @@ careful consideration.
 {{< /row >}}
 {{< row class="images" >}}
 {{< column >}}
-![EPAM Flow](epam-flow-1.png)
+![EPAM Flow](epam-flow.png)
 {{< /column >}}
 {{< /row >}}
 {{< row >}}
