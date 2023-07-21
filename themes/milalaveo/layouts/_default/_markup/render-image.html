@@ -1,4 +1,4 @@
-{{ $image := (.Page.Resources.GetMatch .Destination) }}
+{{ $image := (.Page.Resources.Get .Destination) }}
 {{ with $image }}
 {{ $large := .Resize "2000x" }}
 {{ $medium := .Resize "1000x" }}

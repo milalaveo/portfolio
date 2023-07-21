@@ -7,7 +7,7 @@
 </div>
 <main>
     <div class="row">
-        {{ $image := (dict "image" (.Resources.GetMatch "thumbnail.png") "alt" .Title "lightbox" true) }}
+        {{ $image := (dict "image" (.Resources.Get "thumbnail.png") "alt" .Title "lightbox" true) }}
         <div class="col-12">
             {{ partial "image" $image }}
         </div>

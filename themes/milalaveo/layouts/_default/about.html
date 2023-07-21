@@ -8,7 +8,7 @@
         <h1>{{ .Title }}</h1>
     </div>
     <div class="col-12 col-sm-5 offset-sm-1 about__photo text-right order-first order-sm-last mb-4 mb-sm-0">
-        {{ $image := (dict "image" (.Resources.GetMatch "profile.png") "alt" "Lolita Malaeva") }}
+        {{ $image := (dict "image" (.Resources.Get "profile.png") "alt" "Lolita Malaeva" "width" 550) }}
         {{ partial "image" $image }}
     </div>
 </section>
