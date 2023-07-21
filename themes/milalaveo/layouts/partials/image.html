@@ -3,6 +3,6 @@
 {{ $large := .Resize (printf "%dx" $size) }}
 {{ $large_2x := .Resize (printf "%dx" (mul $size 2)) }}
 {{ if $.lightbox }}<a data-fslightbox href="{{ $large_2x.RelPermalink }}">{{ end }}
-<img src="{{ $large.RelPermalink }}" width="100%" srcset="{{ $large_2x.RelPermalink }} 2x, {{ $large.RelPermalink }} 1x" alt="{{ $.alt }}">
+<img src="{{ $large.RelPermalink }}" width="{{ $large.Width }}" height="{{ $large.Height }}" srcset="{{ $large_2x.RelPermalink }} 2x, {{ $large.RelPermalink }} 1x" alt="{{ $.alt }}">
 {{ if $.lightbox }}</a>{{ end }}
 {{ end }}
