@@ -1,7 +1,6 @@
 ---
 title: "Uzbekistan Railways"
 description: "Currently, Uzrailways serves as the primary platform for selling train tickets."
-subtitle: "UX/UI Design, Prototyping, UI Kit"
 reference: "apelsinweb"
 date: 2023-07-16T17:57:01+02:00
 draft: false

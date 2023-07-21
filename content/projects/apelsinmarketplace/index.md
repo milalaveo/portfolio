@@ -1,7 +1,6 @@
 ---
 title: "Apelsin marketplace"
 description: "The Apelsin mobile application's offspring product."
-subtitle: "UX/UI Design, Prototyping"
 reference: "apelsin"
 date: 2023-07-16T14:57:01+02:00
 draft: false

@@ -2,7 +2,6 @@
 title: "KBS on air"
 date: 2023-07-20T19:10:44+02:00
 description: "kbs on air is specifically designed for quick and easy access to audio services for KBS WORLD Radio’s programs available in 11 languages"
-subtitle: "UX/UI Design, Prototyping"
 reference: "anywhere-design-system"
 theme: "kbs"
 draft: false

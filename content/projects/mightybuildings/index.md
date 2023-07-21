@@ -1,7 +1,6 @@
 ---
 title: "Mighty Buildings - Beautiful, Sustainable Homes for All"
 description: "Revolutionary combination of 3D printing technology, advanced materials, and robotic automation brings to life the vision of beautiful and sustainable homes"
-subtitle: "UX/UI Design, Prototyping, User Research, SaaS"
 reference: "epamanywhere"
 theme: "mighty"
 date: 2023-07-16T15:57:01+02:00

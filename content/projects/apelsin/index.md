@@ -1,7 +1,6 @@
 ---
 title: "Apelsin Payment System"
 description: "Introducing mobile payment system, revolutionizing the way you make secure and convenient transactions on the go."
-subtitle: "UX/UI Design, UI Kit, Prototyping, User Research, User Testing"
 reference: "apelsinweb"
 date: 2023-07-16T11:57:01+02:00
 draft: false

@@ -1,21 +1,21 @@
 {{ $category := .Site.GetPage "/projects" }}
 <section class="row projects">
-    <h2 class="col-sm-5 projects__title">Showcase of selected projects</h2>
+    <h2 class="as_h1 col-12 col-sm-7 projects__title">Showcase of selected projects</h2>
     <ul class="col-12 projects__list">
         {{ range last 3 $category.Pages }}
         {{ $image := (dict "image" (.Resources.Get "thumbnail.png") "alt" .Title "width" 640) }}
-        <li class="row project__item gap-xl">
-            <div class="col-sm-5 d-flex flex-column justify-content-between">
+        <li class="row project__item d-flex justify-content-between gap-xl">
+            <div class="col-sm-5 d-flex flex-column justify-content-between project__content">
                 <div>
-                    <a href="{{ .RelPermalink }}"><h4 class="bold lowercase mb-3">{{ .Title }}</h4></a>
+                    <a href="{{ .RelPermalink }}"><h3 class="bold lowercase mb-3">{{ .Title }}</h3></a>
                     <p class="project__item-description">{{ .Description }}</p>
-                    <p class="paragraph2 gray">{{ .Params.subtitle }}</p>
                 </div>
                 <div>
-                    <a href="{{ .RelPermalink }}" class="project__item-show-more">More shots from this project ↗</a>
+                    <img class="project__cat-scratch" src="/images/cat-scratch.gif" width="175" alt="cat scratch">
+                    <a href="{{ .RelPermalink }}" class="project__item-show-more">More shots from this project</a>
                 </div>
             </div>
-            <div class="col-sm-6 offset-sm-1 project__item-image order-first order-sm-last mb-3 mb-sm-0">
+            <div class="col-sm-6 project__item-image order-first order-sm-last mb-3 mb-sm-0">
                 <a href="{{ .RelPermalink }}">{{ partial "image" $image }}</a>
             </div>
         </li>
