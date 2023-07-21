@@ -1,10 +1,14 @@
 <header class="row header">
     <div class="col-6 header__icon">
-        <a href="/" class="logo"><img src="/images/logo.svg" alt="Lolita"></a>
+        <a href="/" class="logo" aria-label="logo">{{ partial "logo" . }}</a>
     </div>
-    <nav class="col-6 header__navigation">
-        <input role="button" class="burger-trigger d-sm-none" type="checkbox" name="burger" id="header-burger">
-        <ul class="navigation__list burger-navigation">
+    <nav class="col-6 header__navigation burger">
+        <input id="burger__button" class="d-sm-none burger__trigger" type="checkbox" name="burger">
+        <label for="burger__button" class="d-sm-none button__label">
+            {{ partial "burger" . }}
+            {{ partial "cross-icon" . }}
+        </label>
+        <ul class="navigation__list burger__navigation">
             {{ range .Site.Menus.main }}
             <li><a href="{{ .URL }}">{{ .Name }}</a></li>&#10;&#13;
             {{ end }}

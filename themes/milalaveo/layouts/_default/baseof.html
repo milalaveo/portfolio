@@ -2,7 +2,7 @@
 {{ $app := resources.Get "/js/script.js" | fingerprint "sha512" }}
 <html lang="{{ site.LanguageCode }}">
     {{- partial "head.html" . -}}
-    <body>
+    <body {{ with .Params.theme }}class="{{ . }}"{{ end }}>
     <div class="container content">
         {{- partial "header.html" . -}}
         {{- block "main" . }}{{- end }}
