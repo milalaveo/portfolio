@@ -22,7 +22,12 @@ Three months before the MVP release, I became an integral part of the project, f
 {{< /row >}}
 {{< row class="images" >}}
 {{< column >}}
-![Apelsin marketplace 3](apelsin-marketplace-3.png)
+![Apelsin marketplace 1](apelsin-marketplace-1.png)
+{{< /column >}}
+{{< /row >}}
+{{< row class="images" >}}
+{{< column >}}
+![Apelsin marketplace 2](apelsin-marketplace-2.png)
 {{< /column >}}
 {{< /row >}}
 {{< row >}}
@@ -33,6 +38,26 @@ The product received a highly positive response and rapidly attracted its first 
 {{< /row >}}
 {{< row class="images" >}}
 {{< column >}}
-![Apelsin marketplace 2](apelsin-marketplace-2.png)
+![Apelsin marketplace 3](apelsin-marketplace-3.png)
+{{< /column >}}
+{{< /row >}}
+{{< row class="images" >}}
+{{< column >}}
+![Apelsin marketplace 4](apelsin-marketplace-4.png)
+{{< /column >}}
+{{< /row >}}
+{{< row class="images" >}}
+{{< column >}}
+![Apelsin marketplace 5](apelsin-marketplace-5.png)
+{{< /column >}}
+{{< /row >}}
+{{< row class="images" >}}
+{{< column >}}
+![Apelsin marketplace 6](apelsin-marketplace-6.png)
+{{< /column >}}
+{{< /row >}}
+{{< row class="images" >}}
+{{< column >}}
+![Apelsin marketplace 7](apelsin-marketplace-7.png)
 {{< /column >}}
 {{< /row >}}

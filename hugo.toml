@@ -3,6 +3,8 @@ languageCode = 'en-us'
 email = 'bloolya@gmail.com'
 title = 'Lolita Malaeva'
 theme = 'milalaveo'
+timeout = '120s'
+
 [params]
 description = 'Lolita Malaeva portfolio'
 images = ['/images/og.png']
