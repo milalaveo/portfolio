@@ -397,6 +397,10 @@ a:active {
     opacity: 1;
 }
 
+.project__item .project__cat-scratch {
+    display: none;
+}
+
 .project__item:last-of-type {
     margin-bottom: 64px;
 }
@@ -636,10 +640,6 @@ figure figcaption {
 
     .projects__title {
         margin-bottom: 120px;
-    }
-
-    .project__item .project__cat-scratch {
-        display: none;
     }
 
     .project__item:hover .project__cat-scratch {
