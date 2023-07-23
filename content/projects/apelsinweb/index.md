@@ -22,16 +22,31 @@ This project served as a valuable opportunity for me to consolidate and apply al
 {{< /row >}}
 {{< row class="images" >}}
 {{< column >}}
-![Apelsin web](apelsin-web.png)
-{{< /column >}}
-{{< /row >}}
-{{< row class="images" >}}
-{{< column >}}
 ![Apelsin web](apelsin-web2.png)
 {{< /column >}}
 {{< /row >}}
 {{< row class="images" >}}
 {{< column >}}
 ![Apelsin web](apelsin-web3.png)
+{{< /column >}}
+{{< /row >}}
+{{< row class="images" >}}
+{{< column >}}
+![Apelsin web](apelsin-web4.png)
+{{< /column >}}
+{{< /row >}}
+{{< row class="images" >}}
+{{< column >}}
+![Apelsin web](apelsin-web5.png)
+{{< /column >}}
+{{< /row >}}
+{{< row class="images" >}}
+{{< column >}}
+![Apelsin web](apelsin-web6.png)
+{{< /column >}}
+{{< /row >}}
+{{< row class="images" >}}
+{{< column >}}
+![Apelsin web](apelsin-web7.png)
 {{< /column >}}
 {{< /row >}}
