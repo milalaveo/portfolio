@@ -621,6 +621,7 @@ figure figcaption {
     .hero {
         margin-top: 180px;
         margin-bottom: 120px;
+        text-align: center;
     }
 
     .hero__heading, .hero__subheading {
