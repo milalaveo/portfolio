@@ -1,18 +1,20 @@
 {{ define "main" }}
-<section class="row heading">
-    <h1 class="col-12 gap-xl">{{ .Title }}</h1>
-</section>
-<ul class="row justify-content-between projects-page__list">
-    {{ range .Pages.ByPublishDate }}
-    {{ $image := (dict "image" (.Resources.Get "thumbnail.png") "alt" .Title "width" 530) }}
-    <li class="col-12 col-sm-5 projects-page__item">
-        <a href="{{ .RelPermalink }}">{{ partial "image" $image }}</a>
-        <a href="{{ .RelPermalink }}"><h4 class="bold">{{ .Title }}</h4></a>
-        <p class="mb-4">{{ .Description }}</p>
-        <div class="text-right">
-            <a href="{{ .RelPermalink }}"><button class="button button_secondary">Read more <img class="button__icon" src="/images/button-arrow-dark.svg" alt="show more"></button></a>
-        </div>
-    </li>
-    {{ end }}
-</ul>
+<div class="container content">
+    <section class="row heading">
+        <h1 class="col-12 gap-xl">{{ .Title }}</h1>
+    </section>
+    <ul class="row justify-content-between projects-page__list">
+        {{ range .Pages.ByPublishDate }}
+        {{ $image := (dict "image" (.Resources.Get "thumbnail.png") "alt" .Title "width" 530) }}
+        <li class="col-12 col-sm-5 projects-page__item">
+            <a href="{{ .RelPermalink }}">{{ partial "image" $image }}</a>
+            <a href="{{ .RelPermalink }}"><h4 class="bold">{{ .Title }}</h4></a>
+            <p class="mb-4">{{ .Description }}</p>
+            <div class="text-right">
+                <a href="{{ .RelPermalink }}"><button class="button button_secondary">Read more <img class="button__icon" src="/images/button-arrow-dark.svg" alt="show more"></button></a>
+            </div>
+        </li>
+        {{ end }}
+    </ul>
+</div>
 {{ end }}
