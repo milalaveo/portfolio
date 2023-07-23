@@ -2,7 +2,7 @@
 title: "EPAM Anywhere"
 description: "In 2019, EPAM started an ambitious project for hiring IT specialists from any location without EPAM representatives."
 reference: "anywhere-design-system"
-date: 2023-07-16T1:57:01+02:00
+date: 2023-07-16T12:57:01+02:00
 draft: false
 ---
 {{< row >}}

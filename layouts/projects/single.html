@@ -1,21 +1,21 @@
 {{ define "main" }}
-<div class="container content mb-4">
-    <div class="row">
-        <div class="col-12">
-            <h1>{{ .Title }}</h1>
-            <h4>{{ .Description }}</h4>
-        </div>
+<div class="row gap-s">
+    <div class="col-12">
+        <h1>{{ .Title }}</h1>
+        <h4>{{ .Description }}</h4>
     </div>
 </div>
-{{ $image := (dict "image" (.Resources.Get "thumbnail.png") "alt" .Title "lightbox" true "width" 2560) }}
-{{ partial "image" $image }}
-<div class="container content">
-    <main>
-        {{ .Content }}
-        {{ with .Params.reference }}
-        {{ $referencePage := $.Site.GetPage . }}
-        <h4 class="project__show-more-heading">please check this work {{ partial "button-arrow" . }} <a href="{{ $referencePage.RelPermalink }}" target="_blank">{{ $referencePage.Title }}</a></h4>
-        {{ end }}
-    </main>
-</div>
+<main>
+    <div class="row">
+        {{ $image := (dict "image" (.Resources.Get "thumbnail.png") "alt" .Title "lightbox" true) }}
+        <div class="col-12">
+            {{ partial "image" $image }}
+        </div>
+    </div>
+    {{ .Content }}
+    {{ with .Params.reference }}
+    {{ $referencePage := $.Site.GetPage . }}
+    <h4 class="project__show-more-heading">please check this work {{ partial "button-arrow" . }} <a href="{{ $referencePage.RelPermalink }}" target="_blank">{{ $referencePage.Title }}</a></h4>
+    {{ end }}
+</main>
 {{ end }}
