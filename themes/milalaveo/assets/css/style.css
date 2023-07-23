@@ -208,6 +208,7 @@ a:active {
 
 .project__show-more-heading {
     line-height: 48px;
+    margin: 64px auto;
 }
 
 .button__icon {
@@ -706,5 +707,9 @@ figure figcaption {
 
     main .row p:last-of-type {
         margin-bottom: 0;
+    }
+
+    .project__show-more-heading {
+        margin: 120px auto;
     }
 }

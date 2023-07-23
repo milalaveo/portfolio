@@ -43,12 +43,12 @@ redesigns of the screens to address these concerns effectively.
 {{< /row >}}
 {{< row class="images" >}}
 {{< column >}}
-![Wireframes](apelsin-wireframes.png)
+![Wireframes](apelsin-wireframes-1.png)
 {{< /column >}}
 {{< /row >}}
 {{< row class="images" >}}
 {{< column >}}
-![Scheme](apelsin-scheme.png)
+![Wireframes](apelsin-wireframes-2.png)
 {{< /column >}}
 {{< /row >}}
 {{< row >}}
@@ -67,11 +67,13 @@ library marked a significant milestone in our overall design efforts.
 {{< /column >}}
 {{< /row >}}
 {{< row class="images" >}}
-{{< column 5 >}}
-![Apelsin 5-7](apelsin-5-7.png)
+{{< column >}}
+![Apelsin UI](apelsin-ui.png)
 {{< /column >}}
-{{< column 7 >}}
-![Apelsin 7-7](apelsin-7-7.png)
+{{< /row >}}
+{{< row class="images" >}}
+{{< column >}}
+![Apelsin mobile](apelsin-4.png)
 {{< /column >}}
 {{< /row >}}
 {{< row >}}
@@ -92,11 +94,29 @@ their quick comprehension and navigation of the application's functionalities.
 ![Apelsin 6-6-1](apelsin-6-6-1.png)
 {{< /column >}}
 {{< column 6 >}}
-![Apelsin 6-6-1-1](apelsin-6-6-1-1.png)
+![Apelsin 6-6-2](apelsin-6-6-2.png)
+{{< /column >}}
+{{< /row >}}
+{{< row class="images" >}}
+{{< column >}}
+![Apelsin money sending](apelsin-money-sending.png)
 {{< /column >}}
 {{< /row >}}
 {{< row class="images" >}}
 {{< column >}}
 ![Apelsin screens](apelsin-screens.png)
+{{< /column >}}
+{{< /row >}}
+{{< row class="images" >}}
+{{< column 5 >}}
+![Apelsin 5-7](apelsin-5-7.png)
+{{< /column >}}
+{{< column 7 >}}
+![Apelsin 7-7](apelsin-7-7.png)
+{{< /column >}}
+{{< /row >}}
+{{< row class="images" >}}
+{{< column >}}
+![Apelsin dark](apelsin-dark.png)
 {{< /column >}}
 {{< /row >}}
