@@ -2,7 +2,7 @@
 <section class="row projects">
     <h2 class="as_h1 col-12 col-sm-7 projects__title">Showcase of selected projects</h2>
     <ul class="col-12 projects__list">
-        {{ range last 3 $category.Pages }}
+        {{ range first 3 $category.Pages.Reverse }}
         {{ $image := (dict "image" (.Resources.Get "thumbnail.png") "alt" .Title "width" 640) }}
         <li class="row project__item d-flex justify-content-between gap-xl">
             <div class="col-sm-5 d-flex flex-column justify-content-between project__content">
