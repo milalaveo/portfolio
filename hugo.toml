@@ -4,6 +4,7 @@ email = 'bloolya@gmail.com'
 title = 'Lolita Malaeva'
 theme = 'milalaveo'
 timeout = '240s'
+googleAnalytics = 'G-V3D1W9ZL87'
 
 [params]
 description = 'Lolita Malaeva portfolio'

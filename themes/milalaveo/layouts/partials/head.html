@@ -1,5 +1,6 @@
 {{ $styles := resources.Get "/css/style.css" | fingerprint "sha512" }}
 <head>
+    {{ template "_internal/google_analytics_async.html" . }}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {{ if .Description }}
