@@ -7,134 +7,137 @@ draft: false
 ---
 {{< row >}}
 {{< column 6 >}}
-#### My role
-During the project's active growth and redesign phase,
-I became a valuable member of the team.
-I played a crucial role in successfully transitioning
-to a new brand and creating a fresh design system.
-Additionally, I actively contributed to the project's
-ongoing development by conducting user research and testing,
-resulting in improved conversion rates and user experiences.
-Furthermore, I had the opportunity to design interfaces
-for new platform services and collaborate on developing
-new graphic solutions for our brand.
+#### Background
+anywhere.epam.com stands as a leading global platform that empowers IT professionals worldwide to access flexible employment options. This dynamic platform daily presents an extensive selection of up-to-date job vacancies, invaluable resources for professional growth, and an unparalleled level of candidate engagement.
 {{< /column >}}
 {{< column 6 >}}
-#### Challenges
-As the project entered its active development phase,
-I encountered a substantial influx of diverse tasks,
-demanding a honed skill in task prioritization
-aligned with business requirements.
-My primary focus during this phase was to efficiently
-manage a tight schedule and provide timely support to various teams.
+#### My role
+I was brought onboard during the crucial redesign phase, a time marked by a fundamental reassessment of the brand's core values. My role allowed me to contribute significantly to the comprehensive restructuring of the platform, driving the transition to a new, user-friendly UI and facilitating ongoing product enhancements. Working as part of a robust team, my primary interactions were with delivery managers, marketing specialists, business analysts, as well as development and testing teams.
 {{< /column >}}
 {{< /row >}}
 {{< row >}}
 {{< column >}}
 #### Redesign
-During the transition to a new brand, the product
-underwent substantial changes, resulting in a complete
-overhaul of its appearance and functionality.
-Take a glimpse of how the Job Page evolved during
-the redesign process:
+The existing platform interface, though functional, had become visually outdated and fell short in offering intuitive user interaction patterns. This realization necessitated a thorough overhaul. Through the redesign process, noticeable transformations took place on the job pages, blog, and SEO. Beyond aesthetics, the navigational flow improved, effectively drawing user focus towards CTAs and essential information. The end result was a cleaner, streamlined user journey and improved performance metrics, which collectively led to a marked rise in conversion rates, as seen in increased clicks on the 'Apply' button.
 {{< /column >}}
 {{< /row >}}
 {{< row class="images" >}}
 {{< column >}}
-![EPAM Flow](epam-flow-1.png)
+![EPAM Job page](epam-job-page.png)
+{{< /column >}}
+{{< /row >}}
+{{< row class="images" >}}
+{{< column >}}
+![EPAM SEO page](epam-seo-page.png)
+{{< /column >}}
+{{< /row >}}
+{{< row class="images" >}}
+{{< column >}}
+![EPAM SEO page](epam-blog-page.png)
 {{< /column >}}
 {{< /row >}}
 {{< row >}}
 {{< column >}}
-#### User flow
-With meticulous attention to detail, 
-I extensively reworked numerous pages and created new ones, 
-all while thoughtfully designing the user flow. 
-Throughout this process, I ensured that both business 
-requirements and my own expertise were taken into 
-careful consideration.
+#### Unveiling a Fresh, Invigorating UI
+The platform transitioned from a traditional corporate style to a vibrant, minimalistic yet energetic design, effectively appealing to the creative, unconventional individuals that make up our target audience. Surveys conducted among candidates and existing Epam Anywhere employees during the brand transition research reinforced the effectiveness of this approach.
 {{< /column >}}
 {{< /row >}}
 {{< row class="images" >}}
 {{< column >}}
-![EPAM Flow](epam-flow2.png)
-{{< /column >}}
-{{< /row >}}
-{{< row class="images" >}}
-{{< column >}}
-![EPAM Flow](epam-flow.png)
+![EPAM Design system](epam-design-system.png)
 {{< /column >}}
 {{< /row >}}
 {{< row >}}
 {{< column >}}
-#### User research
-As an integral part of the product development process, 
-I actively engaged in various user research initiatives, 
-including conducting in-depth user interviews and performing 
-competitor analysis. These efforts proved invaluable in 
-identifying the product's weaknesses and informed well-founded 
-design decisions. The user insights gained from these research 
-activities played a pivotal role in shaping a more user-centric 
-and effective product.
+#### Work highlights
+The magnitude and complexity of this project were enormous, with the range of activities I participated in over two years continually surprising me. Despite the occasional technical and time constraints, I discovered the true value of quick, accurate design decisions.
 {{< /column >}}
 {{< /row >}}
 {{< row class="images" >}}
 {{< column >}}
-![EPAM CA](epam-ca.png)
+![EPAM Wireframes](epam-wireframes-1.png)
+{{< /column >}}
+{{< /row >}}
+{{< row class="images" >}}
+{{< column >}}
+![EPAM Wireframes 2](epam-wireframes-2.png)
 {{< /column >}}
 {{< /row >}}
 {{< row >}}
 {{< column >}}
-#### Product improvement
-A comprehensive series of studies played a significant 
-role in enhancing the product's user-friendliness. 
-This effort encompassed a range of improvements, from 
-small yet impactful innovations like adding hints to the 
-main page's search feature and notifying users about 
-unfilled applications, to more substantial enhancements 
-such as introducing a dedicated page for saved vacancies 
-in the personal account. These improvements collectively 
-resulted in a more user-centric and satisfying experience for our users.
+#### Refining the Hiring Flow
+A transparent and comprehendible job application review process is a cornerstone of successful recruitment. Therefore, my work on this aspect aimed to provide a comforting user experience throughout the process, ensuring necessary information was always accessible.
 {{< /column >}}
 {{< /row >}}
 {{< row class="images" >}}
 {{< column >}}
-![EPAM UI](epam-ui.png)
+![EPAM Hiring flow](epam-hiring-flow.png)
 {{< /column >}}
 {{< /row >}}
 {{< row class="images" >}}
 {{< column >}}
-![EPAM UI 2](epam-ui-2.png)
+![EPAM Hiring flow Cancel](epam-hiring-flow-cancel.png)
+{{< /column >}}
+{{< /row >}}
+{{< row class="images" >}}
+{{< column >}}
+![EPAM Hiring flow 2](epam-hiring-flow-2.png)
 {{< /column >}}
 {{< /row >}}
 {{< row >}}
 {{< column >}}
-#### Various activities
-In addition to my major contributions, I actively engaged 
-in various smaller activities on the project. 
-One notable example was creating and designing an 
-interface for a distinct service that leveraged 
-AI for candidate interviews. This innovative solution 
-significantly improved the efficiency of hiring managers 
-and considerably reduced pre-screening time, 
-leading to a more streamlined and effective hiring process.
+#### Competitor Insights
+Understanding the market landscape, our strengths, weaknesses, and those of competitors, is pivotal for successful product evolution. Our design team's in-depth research led to numerous hypotheses, which, when implemented, significantly enhanced our product.
+
+One notable feature was the ability for users to save jobs. This seemingly simple functionality provided a powerful tool for users to manage their career opportunities effectively, encouraging them to revisit and engage with the platform.
 {{< /column >}}
 {{< /row >}}
 {{< row class="images" >}}
 {{< column >}}
-![EPAM Interviewer](epam-inetviewer.png)
+![EPAM Wireframes 2](epam-wireframes-2.png)
+{{< /column >}}
+{{< /row >}}
+{{< row class="images" >}}
+{{< column >}}
+![EPAM Saved jobs](epam-saved-jobs.png)
 {{< /column >}}
 {{< /row >}}
 {{< row >}}
 {{< column >}}
-#### Graphic design
-My colleagues highly valued my strong visual taste 
-and creativity, which led to my active involvement in 
-the creation of graphic materials for our product.
+#### AI Innovations
+Innovative solutions like the AI interviewer streamlined the pre-screening process for candidates, effectively automating tasks for hiring managers. Users complete necessary fields and engage with a chatbot, replicating both general and technical interview scenarios.
+
+The AI CV Builder is another user-centric tool we developed, catering to candidates who may not have an updated CV when an interesting job opportunity appears. This intuitive tool lets candidates create attractive and content-rich resumes with AI's assistance, enabling them to apply for jobs directly from the platform.
 {{< /column >}}
 {{< /row >}}
 {{< row class="images" >}}
 {{< column >}}
-![EPAM Graphic](graphic.png)
+![EPAM AI](epam-ai.png)
+{{< /column >}}
+{{< /row >}}
+{{< row class="images" >}}
+{{< column >}}
+![EPAM AI 2](epam-ai-2.png)
+{{< /column >}}
+{{< /row >}}
+{{< row >}}
+{{< column >}}
+#### Graphics
+Utilizing my coding skills and ContactMonkey tool, I designed visually appealing and informative emails to enhance candidate and employee experience. Additionally, I developed graphic elements for blog pages, using vibrant creatives to boost user engagement.
+{{< /column >}}
+{{< /row >}}
+{{< row class="images" >}}
+{{< column >}}
+![EPAM Graphics](epam-graphics.png)
+{{< /column >}}
+{{< /row >}}
+{{< row class="images" >}}
+{{< column >}}
+![EPAM Graphics 2](epam-graphics-2.png)
+{{< /column >}}
+{{< /row >}}
+{{< row class="images" >}}
+{{< column >}}
+![Thanks](epam-thanks.png)
 {{< /column >}}
 {{< /row >}}
