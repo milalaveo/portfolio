@@ -535,7 +535,7 @@ main h4 {
     margin-bottom: 12px;
 }
 
-figure img, main .row img {
+figure img, picture img, main .row img {
     width: 100%;
     height: auto;
 }

@@ -1,10 +1,18 @@
 {{ with .image }}
-{{ $size := default 1400 (int $.width) }}
-{{ $large := .Resize (printf "%dx" $size) }}
-{{ $large_2x := .Resize (printf "%dx" (mul $size 2)) }}
-{{ if $.lightbox }}<a data-fslightbox href="{{ $large_2x.RelPermalink }}">{{ end }}
-<figure>
-    <img src="{{ $large.RelPermalink }}" width="{{ $large.Width }}" height="{{ $large.Height }}" srcset="{{ $large_2x.RelPermalink }} 2x, {{ $large.RelPermalink }} 1x" alt="{{ $.alt }}">
-</figure>
-{{ if $.lightbox }}</a>{{ end }}
+{{ $base := .Resize "1200x p80" }}
+{{ $retina := .Resize "2400x p80" }}
+{{ $webp := .Resize "1200x webp p75" }}
+{{ $retinaWebp := .Resize "2400x webp p75" }}
+{{ if $.lightbox }}<a data-fslightbox href="{{ $base.RelPermalink }}">{{ end }}
+    <picture>
+        <source srcset="{{ $webp.RelPermalink }} 1200w, {{ $retinaWebp.RelPermalink }} 2400w" type="image/webp">
+        <img
+                src="{{ $base.RelPermalink }}"
+                srcset="{{ $base.RelPermalink }} 1200w, {{ $retina.RelPermalink }} 2400w"
+                sizes="(max-width: 600px) 480px, (max-width: 1200px) 800px, 1200px"
+                alt="{{ $.alt }}"
+                loading="lazy"
+        >
+    </picture>
+    {{ if $.lightbox }}</a>{{ end }}
 {{ end }}
