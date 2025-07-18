@@ -14,11 +14,9 @@
             {{ end }}
         </ul>
     </nav>
-    <div class="col-sm-3 d-none d-sm-block">
-        <ul class="header__social text-right">
-            {{ range .Site.Menus.footer }}
-            <li><a href="{{ .URL }}"><img src="/images/{{ .Pre }}" alt="{{ .Name }}"></a></li>
-            {{ end }}
-        </ul>
-    </div>
+    <ul class="col-sm-3 d-none d-sm-block header__social text-right">
+        {{ range .Site.Menus.footer }}
+        <li><a href="{{ .URL }}"><img src="/images/{{ .Pre }}" alt="{{ .Name }}"></a></li>
+        {{ end }}
+    </ul>
 </header>
