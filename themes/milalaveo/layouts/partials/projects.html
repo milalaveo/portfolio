@@ -1,13 +1,13 @@
 {{ $category := .Site.GetPage "/projects" }}
-<section class="row projects">
-    <h2 class="as_h1 col-12 col-sm-7 projects__title">Showcase of selected projects</h2>
+<section class="row projects gap-xl">
+    <h2 class="as_h1 col-12 text-center projects__title">Selected projects</h2>
     <ul class="col-12 projects__list">
         {{ range first 3 $category.Pages.Reverse }}
         {{ $image := (dict "image" (.Resources.Get "thumbnail.png") "alt" .Title "width" 640) }}
-        <li class="row project__item d-flex justify-content-between gap-xl">
+        <li class="row project__item d-flex justify-content-between">
             <div class="col-sm-5 d-flex flex-column justify-content-between project__content">
                 <div>
-                    <a href="{{ .RelPermalink }}"><h3 class="bold lowercase mb-3">{{ .Title }}</h3></a>
+                    <a href="{{ .RelPermalink }}"><h3 class="bold mb-4">{{ .Title }}</h3></a>
                     <p class="project__item-description">{{ .Description }}</p>
                 </div>
                 <div>
@@ -22,6 +22,6 @@
         {{ end }}
     </ul>
     <div class="col-12 text-center">
-        <a href="/projects"><button class="button">show more projects <img class="button__icon" src="/images/button-arrow.svg" alt="show more"></button></a>
+        <a href="/projects"><button class="button">Show More Projects <img class="button__icon" src="/images/button-arrow.svg" alt="show more"></button></a>
     </div>
 </section>

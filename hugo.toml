@@ -11,16 +11,12 @@ images = ['/images/og.png']
 
 [menu]
 [[menu.main]]
-    name = 'Home'
-    url = '/'
-    weight = 10
+    name = 'About'
+    url = '/about'
+    weight = 20
 [[menu.main]]
     name = 'Projects'
     url = '/projects'
-    weight = 20
-[[menu.main]]
-    name = 'About'
-    url = '/about'
     weight = 30
 [[menu.main]]
     name = 'Contact'
@@ -29,8 +25,10 @@ images = ['/images/og.png']
 [[menu.footer]]
     name = 'LinkedIn'
     url = 'https://www.linkedin.com/in/lolita-malaeva-72b480227/'
+    pre = 'linkedin.svg'
     weight = 10
 [[menu.footer]]
     name = 'GitHub'
     url = 'https://github.com/milalaveo'
+    pre = 'github.svg'
     weight = 20

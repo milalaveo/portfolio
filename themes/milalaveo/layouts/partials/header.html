@@ -1,5 +1,5 @@
 <header class="row header">
-    <div class="col-6 header__icon">
+    <div class="col-6 col-sm-3 header__icon">
         <a href="/" class="logo" aria-label="logo">{{ partial "logo" . }}</a>
     </div>
     <nav class="col-6 header__navigation burger">
@@ -8,10 +8,17 @@
             {{ partial "burger" . }}
             {{ partial "cross-icon" . }}
         </label>
-        <ul class="navigation__list burger__navigation">
+        <ul class="navigation__list burger__navigation text-center">
             {{ range .Site.Menus.main }}
             <li><a href="{{ .URL }}">{{ .Name }}</a></li>&#10;&#13;
             {{ end }}
         </ul>
     </nav>
+    <div class="col-sm-3 d-none d-sm-block">
+        <ul class="header__social text-right">
+            {{ range .Site.Menus.footer }}
+            <li><a href="{{ .URL }}"><img src="/images/{{ .Pre }}" alt="{{ .Name }}"></a></li>
+            {{ end }}
+        </ul>
+    </div>
 </header>

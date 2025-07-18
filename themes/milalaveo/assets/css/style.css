@@ -50,7 +50,6 @@ h1, .as_h1 {
     font-size: 2rem;
     line-height: 2.375rem;
     font-weight: 700;
-    text-transform: lowercase;
     margin-bottom: 32px;
 }
 
@@ -58,21 +57,27 @@ h2 {
     font-size: 1.75rem;
     line-height: 2.25rem;
     font-weight: 500;
-    text-transform: lowercase;
 }
 
 h3 {
     font-size: 1.5rem;
     line-height: 1.9375rem;
     font-weight: 400;
-    text-transform: lowercase;
 }
 
 h4 {
     font-size: 1.375rem;
     line-height: 1.8125rem;
     font-weight: 500;
-    text-transform: lowercase;
+}
+
+h5 {
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+strong {
+    font-weight: 700;
 }
 
 .gap-xl {
@@ -157,7 +162,7 @@ a:active {
     font-family: inherit;
     cursor: pointer;
     display: inline-block;
-    padding: 12px 40px;
+    padding: 8px 24px;
     font-size: 1rem;
     line-height: 1.625rem;
     background-color: var(--button-primary);
@@ -166,7 +171,7 @@ a:active {
     transition: background-color 0.3s, border 0.3s;
     border: none;
     width: 100%;
-    text-transform: lowercase;
+    border-radius: 24px;
 }
 
 .button:hover {
@@ -215,7 +220,7 @@ a:active {
     width: 1.5rem;
     height: 1.5rem;
     line-height: 1.625rem;
-    margin-left: 12px;
+    margin-left: 8px;
     vertical-align: middle;
 }
 
@@ -249,7 +254,7 @@ a:active {
 }
 
 .navigation__list {
-    text-align: right;
+    text-align: center;
     list-style-type: none;
     letter-spacing: 32px;
     margin: 0;
@@ -303,6 +308,14 @@ a:active {
 
 .burger__trigger:checked ~ .burger__navigation {
     transform: translateX(0);
+}
+
+.header__social {
+    letter-spacing: 24px;
+}
+
+.header__social li {
+    display: inline-block;
 }
 
 .burger__navigation {
@@ -398,12 +411,24 @@ a:active {
     opacity: 1;
 }
 
+.project__item {
+    margin-bottom: 64px;
+    padding-bottom: 64px;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.project__item .project__item-image img {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
 .project__item .project__cat-scratch {
     display: none;
 }
 
 .project__item:last-of-type {
-    margin-bottom: 64px;
+    border-bottom: none;
+    padding-bottom: 0;
 }
 
 .projects__title {
@@ -427,6 +452,12 @@ a:active {
 .recommendation {
     padding: 12px;
     margin-bottom: 24px;
+}
+
+.recommendation__photo {
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
 }
 
 .recommendation__person {
@@ -470,7 +501,7 @@ a:active {
 hr {
     border: none;
     margin: 64px auto;
-    background-color: var(--font-color);
+    background-color: #D9D9D9;
     height: 1px;
 }
 
@@ -509,6 +540,7 @@ hr {
     font-weight: 400;
     font-family: "Mulish", sans-serif;
     line-height: 1.625rem;
+    border-radius: 8px;
 }
 
 .form__textarea {
@@ -532,7 +564,17 @@ hr {
 
 main h4 {
     font-weight: 700;
-    margin-bottom: 12px;
+    margin-bottom: 24px;
+}
+
+main ul {
+    margin-bottom: 1.5rem;
+}
+
+main li {
+    list-style-type: disc;
+    margin-left: 24px;
+    line-height: 1.625rem;
 }
 
 figure img, picture img, main .row img {
@@ -570,7 +612,7 @@ figure figcaption {
     }
 
     hr {
-        margin: 120px auto;
+        margin: 88px auto;
     }
 
     .paragraph1, p {
@@ -587,7 +629,7 @@ figure figcaption {
     }
 
     .gap-xl {
-        margin-bottom: 120px;
+        margin-bottom: 88px;
     }
 
     .gap-s {
@@ -595,7 +637,7 @@ figure figcaption {
     }
 
     .container {
-        margin: 120px auto;
+        margin: 32px auto 120px;
     }
 
     .header {
@@ -641,7 +683,7 @@ figure figcaption {
     }
 
     .projects__title {
-        margin-bottom: 120px;
+        margin-bottom: 64px;
     }
 
     .project__item:hover .project__cat-scratch {
