@@ -261,6 +261,10 @@ a:active {
     padding: 0;
 }
 
+.footer__navigation .navigation__list {
+    text-align: right;
+}
+
 .navigation__list > li {
     display: inline-block;
     letter-spacing: initial;
@@ -310,12 +314,13 @@ a:active {
     transform: translateX(0);
 }
 
-.header__social {
-    letter-spacing: 24px;
-}
-
 .header__social li {
     display: inline-block;
+    margin-right: 24px;
+}
+
+.header__social li:last-of-type {
+    margin-right: 0;
 }
 
 .burger__navigation {
