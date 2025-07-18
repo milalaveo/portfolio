@@ -1,6 +1,6 @@
 ---
 title: "Virtual Office Platform"
-description: "CoSociety is a Swedish startup building a virtual office to boost engagement among remote employees, helping them stay connected regardless of distance. A key feature was browser-based access using Unity WebGPU, which enabled seamless integration of modern web development tools into both the web application and in-engine UI design."
+description: "CoSociety created a browser-based virtual office using Unity WebGPU, blending modern web and in-engine UI development."
 reference: "epamanywhere"
 date: 2023-07-14T11:57:01+02:00
 draft: false
