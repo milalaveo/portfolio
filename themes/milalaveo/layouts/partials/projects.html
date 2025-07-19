@@ -4,19 +4,21 @@
     <ul class="col-12 projects__list">
         {{ range first 3 $category.Pages.Reverse }}
         {{ $image := (dict "image" (.Resources.Get "thumbnail.png") "alt" .Title "width" 640) }}
-        <li class="row project__item d-flex justify-content-between">
-            <div class="col-sm-5 d-flex flex-column justify-content-between project__content">
-                <div>
-                    <a href="{{ .RelPermalink }}"><h3 class="bold mb-4">{{ .Title }}</h3></a>
-                    <p class="project__item-description">{{ .Description }}</p>
+        <li class="project__item">
+            <div class="row project__item-wrapper d-flex justify-content-between">
+                <div class="col-sm-5 d-flex flex-column justify-content-between project__content">
+                    <div>
+                        <a href="{{ .RelPermalink }}"><h3 class="bold mb-4">{{ .Title }}</h3></a>
+                        <p class="project__item-description">{{ .Description }}</p>
+                    </div>
+                    <div>
+                        <img class="project__cat-scratch" src="/images/cat-scratch.gif" width="175" alt="cat scratch">
+                        <a href="{{ .RelPermalink }}" class="project__item-show-more">More shots from this project</a>
+                    </div>
                 </div>
-                <div>
-                    <img class="project__cat-scratch" src="/images/cat-scratch.gif" width="175" alt="cat scratch">
-                    <a href="{{ .RelPermalink }}" class="project__item-show-more">More shots from this project</a>
+                <div class="col-sm-6 project__item-image order-first order-sm-last mb-3 mb-sm-0">
+                    <a href="{{ .RelPermalink }}">{{ partial "image" $image }}</a>
                 </div>
-            </div>
-            <div class="col-sm-6 project__item-image order-first order-sm-last mb-3 mb-sm-0">
-                <a href="{{ .RelPermalink }}">{{ partial "image" $image }}</a>
             </div>
         </li>
         {{ end }}

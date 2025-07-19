@@ -314,13 +314,8 @@ a:active {
     transform: translateX(0);
 }
 
-.header__social li {
-    display: inline-block;
-    margin-right: 24px;
-}
-
-.header__social li:last-of-type {
-    margin-right: 0;
+.header__social {
+    gap: 24px;
 }
 
 .burger__navigation {
@@ -427,8 +422,10 @@ a:active {
     overflow: hidden;
 }
 
-.project__item .project__cat-scratch {
+.project__cat-scratch {
     display: none;
+    pointer-events: none;
+    visibility: hidden;
 }
 
 .project__item:last-of-type {
@@ -595,6 +592,7 @@ figure figcaption {
     margin-top: 16px;
 }
 
+/* sm breakpoint */
 @media screen and (min-width: 576px) {
     h1, .as_h1 {
         font-size: 4rem;
@@ -691,16 +689,8 @@ figure figcaption {
         margin-bottom: 64px;
     }
 
-    .project__item:hover .project__cat-scratch {
-        display: block;
-    }
-
-    .project__item:nth-child(2n) {
+    .project__item:nth-child(2n) .project__item-wrapper {
         flex-direction: row-reverse;
-    }
-
-    .project__item:nth-child(2n) .project__cat-scratch {
-        transform: scaleX(-1);
     }
 
     .project__item-description {
@@ -759,5 +749,20 @@ figure figcaption {
 
     .project__show-more-heading {
         margin: 120px auto;
+    }
+}
+
+/* md breakpoint */
+@media screen and (min-width: 992px) {
+    .project__cat-scratch {
+        display: block;
+    }
+
+    .project__item:hover .project__cat-scratch {
+        visibility: visible;
+    }
+
+    .project__item:nth-child(2n) .project__cat-scratch {
+        transform: scaleX(-1);
     }
 }
